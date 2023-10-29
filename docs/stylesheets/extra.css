@@ -1,0 +1,30 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&display=swap');
+
+/* Themes */
+:root {
+    --md-text-font: "Inter"; 
+}
+[data-md-color-scheme="glean"] {
+    --md-primary-fg-color:          #343CED;
+    --md-primary-fg-color--light:   #9297F4;
+    --md-primary-fg-color--lighter: #bdbcf6;
+    --md-primary-fg-color--lightest:#e3e2fa;
+    --md-primary-fg-color--dark:    #0E149F;
+    --md-primary-fg-color--darker:  #090E6A;
+    --md-primary-fg-color--darkest: #050735;
+}
+[data-md-color-scheme="slate"] {
+    --md-hue: 225;
+    --md-primary-fg-color:          #343CED;
+    --md-primary-fg-color--light:   #9297F4;
+    --md-primary-fg-color--lighter: #bdbcf6;
+    --md-primary-fg-color--lightest:#e3e2fa;
+    --md-primary-fg-color--dark:    #0E149F;
+    --md-primary-fg-color--darker:  #090E6A;
+    --md-primary-fg-color--darkest: #050735;
+}
+
+h1, h2, h3, h4 {
+    font-weight: 700 !important;
+}

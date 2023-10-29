@@ -1,0 +1,78 @@
+site_name: Help Center
+site_url: https://help.glean.com/
+site_description: "Glean Help Center"
+repo_url: https://github.com/nathancatania/Glean-Docs
+repo_name: GitHub
+edit_uri: blob/main/docs/
+copyright: "&copy; 2023, Glean Technologies, Inc."
+
+    
+
+theme:
+  name: material
+  favicon: assets/images/favicon.png
+  logo: assets/images/banner-logo.svg
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: glean
+      toggle:
+          icon: material/weather-sunny
+          name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+  
+  features:
+    #- navigation.instant
+    #- navigation.instant.progress
+    - navigation.indexes
+    - navigation.tabs
+    - navigation.sections
+    - navigation.top
+    - navigation.footer
+
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/youtube
+      link: https://www.youtube.com/channel/UCY0JDJWRBXrR0m1SqWPVB9A
+      name: Glean on YouTube
+    
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/glean
+      name: Glean on X (formerly Twitter)
+
+    - icon: fontawesome/brands/linkedin
+      link: https://www.linkedin.com/company/gleanwork/about/
+      name: Glean on LinkedIn
+  alternate:
+    - name: English
+      link: /
+      lang: en
+
+
+
+plugins:
+  - social:
+      cards_layout_options:
+        cards_layout: default
+        background_color: #343CED # Change background color
+
+
+extra_css:
+  - stylesheets/extra.css
+
+# Site navigation
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Welcome: getting-started/welcome.md
+      - Access the Admin UI: getting-started/adminui.md
+      - Setup Single Sign-On (SSO): getting-started/sso.md
+      - Configure Datasources: getting-started/datasources.md
+      - Sync People Data: getting-started/people-data.md
