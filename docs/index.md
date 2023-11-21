@@ -1,5 +1,4 @@
 ---
-icon: material/emoticon-happy
 title: "Welcome to the Glean Help Center"
 description: "The Glean Help Center is your one-stop-shop for everything Glean!"
 ---

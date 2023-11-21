@@ -55,7 +55,10 @@ extra:
       link: /
       lang: en
 
-
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
 
 plugins:
   - social:
@@ -74,5 +77,6 @@ nav:
       - Welcome: getting-started/welcome.md
       - Access the Admin UI: getting-started/adminui.md
       - Setup Single Sign-On (SSO): getting-started/sso.md
-      - Configure Datasources: getting-started/datasources.md
       - Sync People Data: getting-started/people-data.md
+      - Configure Datasources: getting-started/datasources.md
+      - Setup Glean Assistant: getting-started/assistant.md
