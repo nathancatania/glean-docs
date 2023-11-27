@@ -56,11 +56,13 @@ extra:
       lang: en
 
 markdown_extensions:
+  - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
 
 plugins:
+  - awesome-pages
   - social:
       cards_layout_options:
         cards_layout: default
@@ -71,12 +73,14 @@ extra_css:
   - stylesheets/extra.css
 
 # Site navigation
-nav:
-  - Home: index.md
-  - Getting Started:
-      - Welcome: getting-started/welcome.md
-      - Access the Admin UI: getting-started/adminui.md
-      - Setup Single Sign-On (SSO): getting-started/sso.md
-      - Sync People Data: getting-started/people-data.md
-      - Configure Datasources: getting-started/datasources.md
-      - Setup Glean Assistant: getting-started/assistant.md
+# nav:
+#   - Home: index.md
+#   - Getting Started:
+#       - Welcome: getting-started/welcome.md
+#       - Access the Admin UI: getting-started/adminui.md
+#       - Setup Single Sign-On (SSO): getting-started/sso.md
+#       - Sync People Data: getting-started/people-data.md
+#       - Connect Datasources: getting-started/datasources.md
+#       - Setup Glean Assistant: getting-started/assistant.md
+#   - Assistant:
+#       - assistant/*

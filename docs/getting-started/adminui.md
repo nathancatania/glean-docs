@@ -6,13 +6,18 @@ authors:
     - "Nathan Catania"
 ---
 
-# Accessing the Admin User Interface
+# Access the Admin User Interface
 
-In this section we will cover how to access the Glean UI and begin setup for your organization.
+In this section you will learn how to access the Glean Administrator User Interface (UI) and begin setup for your organization.
+
+![glean-1700891037604-2x](adminui.assets/glean-1700891037604-2x.webp)
+
+## About the Glean Admin UI
+The Glean Admin UI ([app.glean.com/admin](https://app.glean.com/admin)) is where you will manage the Glean workspace for your organization, including setting up Single Sign-On (SSO), configuring data sources, and syncing people data.
 
 ## Sign In to the Admin Interface
 
-To access the Glean Admin UI, navigate to [https://app.glean.com/admin](https://app.glean.com/admin) in your web browser. If you're not already logged in, you'll be prompted to do so. Enter your company email address to log in.
+To access the Glean Admin UI, navigate to [https://app.glean.com/admin](https://app.glean.com/admin) in your web browser. If you are not already logged in, you will be prompted to do so. Enter your company email address to log in.
 
 ![glean-1700136034954-2x](adminui.assets/glean-1700136034954-2x.webp)
 
@@ -22,7 +27,7 @@ Because we have not configured Single Sign-On (SSO) yet, you will be prompted to
 
 ## Add Additional Administrators
 
-The Glean Admin UI ([app.glean.com/admin](https://app.glean.com/admin)) is where you will manage the Glean workspace for your organization, including setting up Single Sign-On (SSO), configuring data sources, and syncing people data.
+
 
 When you sign in for the first time, you will be prompted to add additional administrators before proceeding.
 

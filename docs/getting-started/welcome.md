@@ -10,6 +10,8 @@ authors:
 
 Thank you for choosing Glean as your knowledge management solution. We're thrilled to have you onboard and are committed to ensuring a smooth and successful setup for your organization.
 
+![glean-1700891326976-2x](welcome.assets/glean-1700891326976-2x.webp)
+
 ## What is Glean?
 
 Glean is a powerful tool designed to streamline your workspace by making information easily accessible. It allows you to search across various data sources, share knowledge with your team, and leverage advanced features for complex workflows.

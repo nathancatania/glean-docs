@@ -1,0 +1,9 @@
+# Navigation
+nav:
+  - Welcome: welcome.md
+  - Access the Admin UI: adminui.md
+  - Setup Single Sign-On (SSO): sso.md
+  - Sync People Data: people-data.md
+  - Connect Datasources: datasources.md
+  - Setup Glean Assistant: assistant.md
+  - ...

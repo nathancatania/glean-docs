@@ -6,21 +6,30 @@ authors:
     - "Nathan Catania"
 ---
 
-# Configure People Data
+# Sync People Data
+
+In this section you will synchronize your employee directory (ie: _People Data_) to Glean.
 
 !!! info
-    You will not be able to complete this step until your Glean tenant has been provisioned. If your tenant is still being built, you will need to return to this step later.
+    You will not be able to complete this step until your Glean tenant has been provisioned.
+    
+    If your tenant is still being built, you will need to return to this step later.
 
-People setup is a key part of setting up Glean and is achieved via directory synchronization. This allows Glean deliver more relevant search results, recommendations, and allows document permissions to be enforced in search. It is also used to create the list of teammates for managing access to features.
+![glean-1700889067370-2x](people-data.assets/glean-1700889067370-2x.webp)
 
-In this step, we will configure the primary source of your user information. This is typically your directory.
+
+
+## About People Data
+Synchronizing people data to Glean is a critical part of the setup process, as it allows Glean to enforce document permissions and deliver relevant results in search.
+
+It is also used to create a list of teammates for managing access to features and content.
 
 !!! tip
-    If you configured SSO using OIDC in the last step, and your directory is the same as your SSO platform (eg: Azure AD/Entra ID, Okta), then you have already configured synchronization as part of the SSO configuration, and you simply need to enable the sync.
+    If you configured SSO using OIDC in the last step, and your directory is the same as your SSO platform (eg: Azure AD/Entra ID, Okta), then you have already configured people data sync as part of the SSO configuration, and now simply need to enable it.
 
 ## Configure People Data Sync
 
-!!! warning "Using SAML or a source not listed?"
+!!! warning "Using SAML or a People Data source not listed?"
     You will need to manually upload your directory data to Glean. Click here for more information.
 
 Navigate to **Workspace settings** > **Setup** > **People data**.
@@ -35,19 +44,19 @@ If you wish to setup an alternative source, click the appropriate service and fo
 
 ### Attribute Mapping
 
-On the next screen, and if your IdP supports it, you will be able to map attributes from your directory to the required field in Glean. This is useful if you store user information in a different way that what is standard for the identity service.
+On the next screen, and if your People Data source supports it, you will be able to map attributes from your directory to the required field in Glean. This is useful if you store user information in a different way than what is standard.
 
 For example, you might want to infer a user’s location from their manager’s location. If they have an Okta field called `managerLocation`, you could map `managerLocation` to the Glean attribute `location`.
 
-If your IdP does not support custom mapping in the Glean interface, you will not see this option. Please contact Glean support if you require this feature but do not see it for your configured IdP.
+If your People Data source does not support custom mapping in the Glean interface, you will not see this option. Please contact Glean support if you require this feature but do not see it for your configured People Data source.
 
 <picture>
 
 ### Initiate the sync
 
-Before you start the sync, you can preview what information will included. For example, how many users will be created, how many departments you have, and so on.
+Before you start the sync, you can preview what information will included. For example, how many users will be created, and how many departments you have. If this is different to what you expected, check that you have provided the correct permissions within the People Data source.
 
-Click **Start sync** to begin directory synchronization. From this point onwards the sync is automatic: Glean will check-in with your IdP periodically for any changes.
+Click **Start sync** to begin synchronization. From this point onwards the sync is automatic: Glean will check-in with your People Data source periodically for any changes.
 
 ![glean-1700461946880-2x](people-data.assets/glean-1700461946880-2x.webp)
 
@@ -55,14 +64,20 @@ Click **Start sync** to begin directory synchronization. From this point onwards
 
 ### Verification
 
-The directory synchronization will start and over the next hour you will start to see your employee directory being populated. The synchronization is not immediate: Glean needs to crawl your people data first, and then index it so that it is useable in search.
+The People Data sync will start, and over the next hour, you will start to see your employee directory being populated.
+
+The synchronization is not immediate: Glean needs to crawl your people data first, and then index it so that it is useable in search. **This can take 2-3 hours to fully complete.**
 
 You can return to this page later to validate that your sync is working.
 
 ![glean-1700471123347-2x](people-data.assets/glean-1700471123347-2x.webp)
 
 ??? Danger "Having issues?"
-    If you do not see people data start to show up within a few hours, this typically points to a permissions issue: Ensure that you have provided Glean with the correct permissions within your IdP when you configured SSO. For example, for Azure AD, it is critical to have `Directory.Read.All` and `User.Read.All` as **Application permissions** NOT Delegated Permissions. If your issues persist, please contact Glean support.
+    If you do not see people data start to show up within a few hours, this typically points to a permissions issue: Ensure that you have provided Glean with the correct permissions within your IdP when you configured SSO.
+    
+    For example, for Azure AD, it is critical to have `Directory.Read.All` and `User.Read.All` as **Application permissions** NOT Delegated Permissions.
+    
+    If your issues persist, please contact Glean support.
 
 ## Manual Upload (.csv)
 
@@ -85,7 +100,7 @@ The following are **mandatory** fields:
 | `title`        | The user's job title, eg: `Software Engineer` |
 | `department`   | The user's department, eg: `Engineering`      |
 
-The following are not mandatory, but **highly recommended** fields to enhance the Glean experience for the organization:
+The following are not mandatory, but **highly recommended** fields to enhance the Glean experience for your organization:
 
 | Recommended Field | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |

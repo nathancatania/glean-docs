@@ -6,22 +6,30 @@ authors:
     - "Nathan Catania"
 ---
 
-# Configure Single Sign-On (SSO)
+# Setup Single Sign-On (SSO)
 
-Configuring Single Sign-On (SSO) with your Identity Provider (IdP) is crucial to providing seamless and secure employee access to Glean. User information within your directory will be synchronized to Glean so that your organization's access permissions can be enforced in a user's search results.
+In this section you will learn how to configure Single Sign-On (SSO) to provide seamless and secure employee access to Glean.
 
-## Select your Identity Provider (IdP)
+User information within your directory will be synchronized to Glean so that your organization's access permissions can be enforced in a user's search results.
 
+![glean-1700889942424-2x](sso.assets/glean-1700889942424-2x.webp)
+
+## About Glean SSO
 Glean uses OpenID Connect (OIDC) for SSO and directory synchronization, as it allows for fine grained control over permissions. All modern IdPs support OIDC, including Okta, Azure, and Google.
 
- On the next screen (under **Setup** > **Authentication**), select your IdP from the list.
+## Select your Identity Provider (IdP)
+On the next screen (under **Setup** > **Authentication**), select your IdP from the list.
 
 ![glean-1700456687649-2x](sso.assets/glean-1700456687649-2x.webp)
 
 If you are using an older SSO service, eg: ADFS, you will need to use SAML instead of OIDC for SSO. To configure SAML, select **Okta SAML** from the list of IdPs.
 
 !!! warning
-     Glean strongly recommends you use an IdP that supports OIDC. SAML does not support directory synchonrization which is required for correct Glean operation. If you elect to use SAML, you will need to manually upload your directory information to Glean in CSV format.
+
+     Glean strongly recommends you use an IdP that supports OIDC. SAML does not support directory synchonrization which is required for correct Glean operation.
+     
+     If you elect to use SAML, you will need to manually upload your directory information to Glean in CSV format.
+
 
 ## Configure SSO
 
@@ -60,14 +68,23 @@ To test your SSO configuration, open a new Incognito or **Private Browsing** win
 You should be redirected to your SSO platform successfully.
 
 ??? Danger "Having issues?"
-    If redirection to your SSO platform fails, and you are using OIDC, please contact Glean support. If you are using SAML, this indicates that the metadata provided to Glean (such as the Login URL) is incorrect. Please check your metadata and if the issue persists, contact Glean support.
+    If redirection to your SSO platform fails, and you are using OIDC, please contact Glean support.
+
+    If you are using SAML, this indicates that the metadata provided to Glean (such as the Login URL) is incorrect. Please check your metadata and if the issue persists, contact Glean support.
 
 ### IdP to Glean
 
 When you have been redirected to your SSO platform, attempt to sign in. You should be redirected back to Glean and and successfully signed in.
 
 ??? Danger "Having issues?"
-    If you are able to sign in, but redirection back to Glean fails, check whether **BOTH** of the Authentication URLs provided by Glean for you to enter into your IdP have been set correctly. For OIDC these are `https://[tenant_name]-be.glean.com/authorization-code/callback?isExtension=1` and `https://[tenant_name]-be.glean.com/authorization-code/callback` If this does fix the issue, change the order of the URLs. If your issue persists, contact Glean support.
+    If you are able to sign in, but redirection back to Glean fails, check whether **BOTH** of the Authentication URLs provided by Glean for you to enter into your IdP have been set correctly.
+    
+    For OIDC these are:
+    ```
+    https://[tenant_name]-be.glean.com/authorization-code/callback?isExtension=1
+    https://[tenant_name]-be.glean.com/authorization-code/callback
+    ```
+    If this does fix the issue, change the order of the URLs. If your issue persists, contact Glean support.
 
 
 
