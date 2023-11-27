@@ -3,20 +3,63 @@ title: "Welcome to the Glean Help Center"
 description: "The Glean Help Center is your one-stop-shop for everything Glean!"
 ---
 
-# Welcome to MkDocs
+# Welcome to the Glean Help Center for Administrators
+This documentation is indended for company admins who are responsible for configuring and managing Glean for company-wide use.
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+If you are a user of Glean at your company, click here to see content relevant to you instead.
 
-## Commands
+---
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+Pick a section that is most relevant to you, or search for something that you need.
 
-## Project layout
+<div class="grid cards" markdown>
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+-   :material-clock-fast:{ .lg .middle } __Getting started__
+
+    ---
+
+    Get Glean configured and ready for use within your organization.
+
+    [:octicons-arrow-right-24: Getting started](#)
+
+-   :fontawesome-brands-markdown:{ .lg .middle } __Search__
+
+    ---
+
+    Focus on your content and generate a responsive and searchable static site
+
+    [:octicons-arrow-right-24: Reference](#)
+
+-   :material-format-font:{ .lg .middle } __Generative AI__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Administration__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+-   :material-format-font:{ .lg .middle } __API__
+
+    ---
+
+    Change the colors, fonts, language, icons, logo and more with a few lines
+
+    [:octicons-arrow-right-24: Customization](#)
+
+-   :material-scale-balance:{ .lg .middle } __Support Portal__
+
+    ---
+
+    Material for MkDocs is licensed under MIT and available on [GitHub]
+
+    [:octicons-arrow-right-24: License](#)
+
+</div>

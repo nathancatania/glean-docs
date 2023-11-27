@@ -4,5 +4,6 @@ nav:
     - Getting Started: getting-started
     - Search: search
     - Assistant: assistant
+    - Administration: administration
     - API: api
     - Support Portal: https://support.glean.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.glean.com%2Fhc%2Fen-us

@@ -46,4 +46,7 @@ To proceed, add the emails of any additional users whom you wish to make a Glean
     Only select individuals within your organization should be granted Full Admin permissions.
 
 !!! info "Hosting Glean in your own GCP or AWS?"
-    You will need to follow the Self-Hosted Deployment Guide first before proceeding with the rest of this guide.
+    You will need to follow the appropriate cloud-prem guide for deploying Glean in GCP or AWS before you can proceed with the rest of this guide.
+
+    * [Deploying Glean in GCP](deploy-gcp.md)
+    * [Deploying Glean in AWS](deploy-aws.md)

@@ -6,4 +6,9 @@ nav:
   - Sync People Data: people-data.md
   - Connect Datasources: datasources.md
   - Setup Glean Assistant: assistant.md
-  - ...
+  - Post-Setup:
+    - ...
+  - Self Hosted:
+    - Glean Deployment Options: deploy-options.md
+    - Deploying Glean in GCP: deploy-gcp.md
+    - Deploying Glean in AWS: deploy-aws.md

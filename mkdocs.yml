@@ -56,13 +56,21 @@ extra:
       lang: en
 
 markdown_extensions:
+  - tables
   - attr_list
   - admonition
   - pymdownx.details
   - pymdownx.superfences
+  - md_in_html
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
 
 plugins:
   - awesome-pages
+  - table-reader
   - social:
       cards_layout_options:
         cards_layout: default

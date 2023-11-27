@@ -103,7 +103,7 @@ The answers Glean Assistant provides are only visibile to the employee that post
 
 ## FAQ
 
-For Frequently Asked Questions regarding Glean Assistant, [see here](/assistant/faq){:target="_blank"}.
+For Frequently Asked Questions regarding Glean Assistant, [see here](../assistant/faq.md){:target="_blank"}.
 
 
 
@@ -111,7 +111,7 @@ For Frequently Asked Questions regarding Glean Assistant, [see here](/assistant/
 
 Using Glean's API key for the Large Language Model (LLM) that powers Glean Assistant is strongly recommended, however you may also choose to use your own API key (eg: OpenAI or Azure OpenAI).
 
-More information: [Using your own API Key](/assistant/byo-key){:target="_blank"}.
+More information: [Using your own API Key](../assistant/byo-key.md){:target="_blank"}.
 
 
 
