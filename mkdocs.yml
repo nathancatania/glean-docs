@@ -1,5 +1,5 @@
 site_name: Help Center
-site_url: https://help.glean.com/
+site_url: http://127.0.0.1:8000/
 site_description: "Glean Help Center"
 repo_url: https://github.com/nathancatania/Glean-Docs
 repo_name: GitHub
@@ -9,6 +9,7 @@ copyright: "&copy; 2023, Glean Technologies, Inc."
     
 
 theme:
+  language: en
   name: material
   favicon: assets/images/favicon.png
   logo: assets/images/banner-logo.svg
@@ -54,6 +55,9 @@ extra:
     - name: English
       link: /
       lang: en
+    - name: Japanese
+      link: /ja/
+      lang: ja
 
 markdown_extensions:
   - tables
@@ -75,6 +79,18 @@ plugins:
       cards_layout_options:
         cards_layout: default
         background_color: #343CED # Change background color
+  - i18n:
+      docs_structure: suffix
+      fallback_to_default: true
+      reconfigure_material: true
+      languages:
+        - locale: en
+          default: true
+          name: English
+          build: true
+        - locale: ja
+          name: Japanese
+          build: true
 
 
 extra_css:

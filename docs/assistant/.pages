@@ -1,5 +1,7 @@
 # Navigation
 nav:
-  - About Glean Assistant: about.md
+  - About Glean Assistant: about.en.md
   - ...
-  - FAQ: faq.md
+  - FAQ: faq.en.md
+  - BYO Key:
+    - byo-key.en.md

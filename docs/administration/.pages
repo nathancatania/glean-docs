@@ -1,8 +1,8 @@
 # Navigation
 nav:
-  - About this section: about.md
+  - About this section: about.en.md
   - Glean Apps:
     - Browser Extensions:
-      - about.md
+      - about.en.md
     - Desktop Apps:
-      - about.md
+      - about.en.md

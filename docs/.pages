@@ -1,6 +1,6 @@
 # Navigation for root
 nav:
-    - Home: index.md
+    - Home: index.en.md
     - Getting Started: getting-started
     - Search: search
     - Assistant: assistant

@@ -25,6 +25,9 @@ All:
 pip install cairosvg
 pip install 'mkdocs-material[imaging]'
 pip install mkdocs-awesome-pages-plugin
+pip install mkdocs-table-reader-plugin
+pip install openpyxl
+pip install mkdocs-static-i18n
 ```
 
 ## Running Locally
