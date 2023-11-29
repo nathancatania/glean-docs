@@ -1,7 +1,13 @@
 # Navigation
 nav:
   - About Glean Assistant: about.en.md
+  - Glean Chat: chat.en.md
+  - AI Answers: ai-answers.en.md
+  - AI Summaries: ai-summaries.en.md
+  - Slackbot: slackbot.en.md
   - ...
   - FAQ: faq.en.md
+  - AI Apps:
+    - About AI Apps: ai-apps.en.md
   - BYO Key:
     - byo-key.en.md

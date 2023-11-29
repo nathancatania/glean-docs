@@ -10,6 +10,14 @@ If you are a user of Glean at your company, click here to see content relevant t
 
 ---
 
+```
+TODO: Add a Glean search box here and make layout wide and bright.
+This would be a great entry point for Glean assistant.
+
+Eg: "How do I configure SSO in Glean"?
+And it tells them the answer based on these documents.
+```
+
 Pick a section that is most relevant to you, or search for something that you need.
 
 <div class="grid cards" markdown>
