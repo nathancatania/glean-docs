@@ -1,7 +1,7 @@
 ---
 icon: material/hammer-wrench
 title: JIRA Configuration
-description: The Glean Atlassian connectors enable secure and efficient data fetching from Confluence and JIRA.
+description: Step-by-step instructions on how to connect Glean to your JIRA instance.
 lang: en
 authors:
   - Nathan Catania

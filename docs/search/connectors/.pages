@@ -1,0 +1,6 @@
+# Navigation
+nav:
+  - About Connectors: about-connectors.en.md
+  - Restricting Content: content-restrictions.en.md
+  - Crawling Frequency: crawling-frequency.en.md
+  - ...

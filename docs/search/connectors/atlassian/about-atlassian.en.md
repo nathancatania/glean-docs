@@ -87,5 +87,3 @@ When Atlassian admins grant administrator permissions for Glean, Atlassian adds 
     | Webhooks                  | v7.5 and later |
     | Activity plugin           | v7.4 and later |
 
-
-## Greenlisting & Redlisting Support

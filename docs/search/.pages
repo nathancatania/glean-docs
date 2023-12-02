@@ -1,6 +1,7 @@
 # Navigation
 nav:
-  - About Glean Search: about.en.md
+  - About Glean Search: about-search.en.md
+  - Knowledge Graph: knowledge-graph.en.md
   - ...
   - FAQ: faq.en.md
   - Connectors: connectors
