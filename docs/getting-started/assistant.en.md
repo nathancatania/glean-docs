@@ -27,7 +27,7 @@ Glean Assistant is designed to enhance your workplace experience by providing yo
 
 ## Activate Glean Assistant
 
-Glean Assistant is currently in Early Access and you must have a valid license for Assistant to proceed. You can activate your access by navigating to [Workspace Settings > Setup > Assistant](https://app.glean.com/admin/setup/gleanassistant) and selecting **Activate**.
+Glean Assistant is currently in Early Access and you must have a valid license for Assistant to proceed. You can activate your access by navigating to [Workspace Settings > Setup > Assistant](https://app.glean.com/admin/setup/gleanassistant){:target="_blank"} and selecting **Activate**.
 
 ![glean-1700902023812-2x](assets/assistant.en.20231128230550666.webp)
 
