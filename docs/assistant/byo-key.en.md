@@ -1,13 +1,16 @@
 ---
 title: "Using your own API Key"
 description: "Glean supports BYO API Key for access to supported LLMs like GPT-4 for Glean Assistant."
+lang: en
+tags:
+    - "assistant"
 authors:
     - "Debby Shepard"
     - "Nathan Catania"
 ---
 
 ## Overview
-To enable Glean Generative AI features, you need to select a generative AI model and setup a key. If you elect to use GPT-4, we recommend using Glean's Azure OpenAI key. We also support using your own Azure OpenAI or “vanilla” OpenAI key. 
+To enable Glean Generative AI features, you need to select a generative AI model and set up a key. If you elect to use GPT-4, we recommend using Glean's Azure OpenAI key. We also support using your own Azure OpenAI or “vanilla” OpenAI key. 
 
 
 When using GPT-4 for Assistant, Glean's Azure OpenAI key is selected by default. To use your own GPT-4 key, follow the instructions below.
@@ -16,7 +19,7 @@ When using GPT-4 for Assistant, Glean's Azure OpenAI key is selected by default.
     To use your own key, you will need GPT-4 access.
 
     * To access GPT-4 with Azure OpenAI, you need [access to the Azure OpenAI program](https://aka.ms/oai/access){:target="_blank"}.
-    * To access GPT-4 with OpenAI, you must have made payment of [at least $1 or more into your OpenAI account](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4){:target="_blank"}.
+    * To access GPT-4 with OpenAI, you must have made a payment of [at least $1 or more into your OpenAI account](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4){:target="_blank"}.
 
 
 ## Glean API Key vs BYO API Key
@@ -25,13 +28,13 @@ For GPT-4, Glean uses an Azure OpenAI key and has a special signed agreement wit
 * **0-day retention:** Your data will not be stored by Azure.
 * **No training:** Data will **not** be used to train any custom large language models.
 * **Data encryption:** All data is encrypted in transit.
-* **Compliance:** Azure is compliant with a variety of industry standards. See details [here](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service#security).
+* **Compliance:** Azure is compliant with a variety of industry standards. See details [here](https://azure.microsoft.com/en-us/products/cognitive-services/openai-service#security){:target="_blank"}.
 
 This provides several advantages over using your own key:
 
-* **Guaranteed capacity:** You do not need to worry about having sufficient quota or quota exhaustion as you would with your own key.
-* **Optimization:** Glean is able to make optimizations under the hood, and can deploy new models as they are available without any changes required by you.
-* **Model access:** Glean provides access to all of the necessary models out of the box. You do not need to request access to these.
+* **Guaranteed capacity:** You do not need to worry about having sufficient quota, as you would with your own key.
+* **Optimization:** Glean can make optimizations under the hood and can deploy new models as they are available without any changes required by you.
+* **Model access:** Glean provides access to all the necessary models out of the box. You do not need to request access to these.
 * **Default 0-day retention:** This is **not** the default when using your own Azure Open AI key.
 
 ## OpenAI GPT-4
@@ -50,7 +53,7 @@ For example:
 * 3k RPM and 500k TPM for 20k users.
 
 ### Access Requirements
-To use your own key you will need access to **all** of the following models:
+To use your own key, you will need access to **all** the following models:
 
 * GPT-4
 * GPT4-32k
@@ -61,15 +64,15 @@ To use your own key you will need access to **all** of the following models:
     GPT-4 access is a requirement to use your own key.
 
     * To access GPT-4 with Azure OpenAI, you need [access to the Azure OpenAI program](https://aka.ms/oai/access){:target="_blank"}.
-    * To access GPT-4 with OpenAI, you must have made payment of [at least $1 or more into your OpenAI account](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4){:target="_blank"}.
+    * To access GPT-4 with OpenAI, you must have made a payment of [at least $1 or more into your OpenAI account](https://help.openai.com/en/articles/7102672-how-can-i-access-gpt-4){:target="_blank"}.
 
 ### Setting your Key
 
 In the [Setup](https://app.glean.com/admin/setup/gleanassistant?tab=setup){:target="_blank"} tab under the [settings for Glean Assistant](https://app.glean.com/admin/setup/gleanassistant?tab=setup){:target="_blank"}, click to open the **API Key** dropdown, and set **Your own key** as the selected option.
 
-Next, from the **Custom API key type** dropdown, select either **OpenAI** or **Azure OpenAI** (depending the key you have), and follow the instructions in the applicable section below.
+Next, from the **Custom API key type** dropdown, select either **OpenAI** or **Azure OpenAI** (depending on the key you have), and follow the instructions in the applicable section below.
 
-![glean-1700908363467-2x](assets/byo-key.en.20231128150523428.en.webp)
+![glean-1700908363467-2x](assets/byo-key.en.20231208144201593.webp)
 
 === "OpenAI"
 
@@ -84,14 +87,14 @@ Next, from the **Custom API key type** dropdown, select either **OpenAI** or **A
         3. Provide the key with a name, eg: `Glean Assistant`, and click **Create secret key**.
         4. Copy the API key displayed. You won't be able to view it again after clicking away.
         
-        ![get-oai-api-key](assets/byo-key.en.20231128150523563.en.png)
+        ![get-oai-api-key](assets/byo-key.en.20231208144201628.png)
         
         **Organization ID**
         
         1. [Click here](https://platform.openai.com/account/organization){:target="_blank"} to go to the Organization settings of the OpenAI Dashboard.
         2. Copy the value listed under **Organization ID**.
         
-        ![get-oai-orgid](assets/byo-key.en.20231128150523576.en.png)
+        ![get-oai-orgid](assets/byo-key.en.20231208144201640.png)
 
 
     1. To use an OpenAI API key, select **OpenAI** from the dropdown.
@@ -99,7 +102,7 @@ Next, from the **Custom API key type** dropdown, select either **OpenAI** or **A
     3. Paste your OpenAI *Organization ID* into the **Organization ID** field.
     4. Click **Submit** to validate and save your key.
 
-    ![glean-1700912726891-2x](assets/byo-key.en.20231128150523463.en.webp)
+    ![glean-1700912726891-2x](assets/byo-key.en.20231208144201652.webp)
 
 === "Azure OpenAI"
 
@@ -117,10 +120,10 @@ Next, from the **Custom API key type** dropdown, select either **OpenAI** or **A
     ??? info "Finding model deployment names"
         1. From the Azure Portal, search for and navigate to the *Azure OpenAI* page.
             2. On the left-side menu, select **Model deployments** then **Manage Deployments**
-            ![aoai-deployments](assets/byo-key.en.20231128150523481.en.png)
+            ![aoai-deployments](assets/byo-key.en.20231208144201665.png)
             3. On the **Deployments** page, you will see a list of all existing model deployments and the **Deployment name** specified for each.
             4. For each of the required models listed above, copy the **Deployment name**. This will be pasted into the Glean Admin UI.
-            ![aoai-deployment-names](assets/byo-key.en.20231128150523516.en.png)
+            ![aoai-deployment-names](assets/byo-key.en.20231208144201677.png)
             5. If you are missing some of the required models, or have no deployments, you will need to create a new deployment for each required model.
 
             a. Click the **Create new deployment** button.
@@ -139,7 +142,7 @@ Next, from the **Custom API key type** dropdown, select either **OpenAI** or **A
 
 
 
-    To use use your Azure OpenAI key:
+    To use your Azure OpenAI key:
 
     1. Select **Azure OpenAI** from the dropdown in the Glean UI.
     2. Paste your Azure OpenAI key into the **Key 1** field.
@@ -147,15 +150,15 @@ Next, from the **Custom API key type** dropdown, select either **OpenAI** or **A
     4. For each of the models listed, paste the deployment name into the field.
     5. Click **Submit** to validate and save your settings.
 
-    ![glean-1700918863200-2x](assets/byo-key.en.20231128150523537.en.webp)
+    ![glean-1700918863200-2x](assets/byo-key.en.20231208144201685.webp)
 
 ## Google PaLM 2
 
-PaLM 2 is currently in closed beta. Please contact your Glean account representitive for further information.
+PaLM 2 is currently in closed beta. Please contact your Glean account representative for further information.
 
 ## Other Models
 
-In our testing, other LLMs did not provide the quality of product we thought to be useful. We are constantly evaluating other models to determine their feasibility, however only models approved by Glean can be used at this time.
+In our testing, other LLMs did not provide the quality of product we thought to be useful. We are constantly evaluating other models to determine their feasibility, however, only models approved by Glean can be used at this time.
 
 
 
@@ -164,17 +167,17 @@ In our testing, other LLMs did not provide the quality of product we thought to 
 !!! danger "This should be used as an estimate only and is subject to change"
     Since our system is continuously evolving, it’s hard for us to settle on a standard cost per query. We currently do not support configuring a limit.
     
-    We recommend using Glean’s Azure OpenAI key so that you do not have to worry about the per query cost.
+    We recommend using Glean’s Azure OpenAI key so that you do not have to worry about the per-query cost.
 
 - Glean makes the following API calls for Assistant:
     - 2x GPT-4 calls for response generation.
     - 1x GPT-3.5-turbo call for follow-up question suggestions.
     - ~15 calls to `text-embedding-002`
 - Average query token usage:
-    - GPT-4: 4750 input tokens, 180 output tokens -> USD $0.1533 [99% of cost]
-    - GPT-3.5-turbo: 760 input tokens, 129 output tokens -> USD $0.001398
-    - `text-embedding–002`: 2250 input tokens -> USD $0.00022
+    - GPT-4: 4750 input tokens, 180 output tokens → USD $0.1533 [99% of cost]
+    - GPT-3.5-turbo: 760 input tokens, 129 output tokens → USD $0.001398
+    - `text-embedding–002`: 2250 input tokens → USD $0.00022
 - **Total cost: Approximately USD $0.15-0.16 per average query.**
 
-*This estimate was last updated: October 13, 2023.*
+*This estimate was last updated on October 13, 2023.*
 

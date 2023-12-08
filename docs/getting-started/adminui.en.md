@@ -2,12 +2,16 @@
 icon: material/monitor-shimmer
 title: "Access the Admin UI"
 description: "Learn how to access the administrator interface for Glean and add additional administrators."
+lang: en
+tags:
+    - "administration"
+    - "getting started"
 authors:
     - "Nathan Catania"
 ---
-![](assets/adminui.en.20231128232119099.webp)
+![](assets/adminui.en.20231208144201697.webp)
 
-In this section you will learn how to access the Glean Administrator User Interface (UI) and begin setup for your organization.
+In this section, you will learn how to access the Glean Administrator User Interface (UI) and begin setup for your organization.
 
 ## About the Glean Admin UI
 The Glean Admin UI ([app.glean.com/admin](https://app.glean.com/admin)) is where you will manage the Glean workspace for your organization, including setting up Single Sign-On (SSO), configuring data sources, and syncing people data.
@@ -16,11 +20,11 @@ The Glean Admin UI ([app.glean.com/admin](https://app.glean.com/admin)) is where
 
 To access the Glean Admin UI, navigate to [https://app.glean.com/admin](https://app.glean.com/admin) in your web browser. If you are not already logged in, you will be prompted to do so. Enter your company email address to log in.
 
-![glean-1700136034954-2x](assets/adminui.en.20231128230527880.webp)
+![glean-1700136034954-2x](assets/adminui.en.20231208144201720.webp)
 
-Because we have not configured Single Sign-On (SSO) yet, you will be prompted to check your email for a link to login. This is called a **Magic Link**. Click the Magic Link in your inbox to log in.
+Because we have not configured Single Sign-On (SSO) yet, you will be prompted to check your email for a link to log in. This is called a **Magic Link**. Click the Magic Link in your inbox to log in.
 
-![glean-1700136098518-2x](assets/adminui.en.20231128230527970.webp)
+![glean-1700136098518-2x](assets/adminui.en.20231208144201769.webp)
 
 ## Add Additional Administrators
 
@@ -28,7 +32,7 @@ Because we have not configured Single Sign-On (SSO) yet, you will be prompted to
 
 When you sign in for the first time, you will be prompted to add additional administrators before proceeding.
 
-![glean-1700386307365-2x](assets/adminui.en.20231128230528048.webp)
+![glean-1700386307365-2x](assets/adminui.en.20231208144201801.webp)
 
 There are two types of administrator roles, **Full Admin** and **Setup Admin**:
 

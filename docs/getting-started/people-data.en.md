@@ -2,12 +2,17 @@
 icon: material/account-sync
 title: "Configure People Data"
 description: "The information from your employee directory is critical for Glean to operate."
+lang: en
+tags:
+    - "getting started"
+    - "administration"
+    - "people data"
 authors:
     - "Nathan Catania"
 ---
-![](assets/people-data.en.20231128232316280.webp)
+![](assets/people-data.en.20231208144202763.webp)
 
-In this section you will synchronize your employee directory (ie: _People Data_) to Glean.
+In this section, you will synchronize your employee directory (i.e. _People Data_) to Glean.
 
 !!! info
     You will not be able to complete this step until your Glean tenant has been provisioned.
@@ -15,12 +20,14 @@ In this section you will synchronize your employee directory (ie: _People Data_)
     If your tenant is still being built, you will need to return to this step later.
 
 ## About People Data
-Synchronizing people data to Glean is a critical part of the setup process, as it allows Glean to enforce document permissions and deliver relevant results in search.
+Synchronizing your employee directory to Glean is a critical part of the setup process, as it allows Glean to:
 
-It is also used to create a list of teammates for managing access to features and content.
+* Enforce document permissions.
+* Apply role-based access controls (RBAC).
+* Deliver more relevant search results.
 
 !!! tip
-    If you configured SSO using OIDC in the last step, and your directory is the same as your SSO platform (eg: Azure AD/Entra ID, Okta), then you have already configured people data sync as part of the SSO configuration, and now simply need to enable it.
+    If you configured SSO using OIDC in the last step, and your directory is the same as your SSO platform (e.g. Azure AD/Entra ID, Okta), then you have already configured people data sync as part of the SSO configuration, and now simply need to enable it.
 
 ## Configure People Data Sync
 
@@ -31,15 +38,15 @@ Navigate to **Workspace settings** > **Setup** > **People data**.
 
 If your SSO platform supports directory synchronization, it will be listed here with a green checkmark and status **Ready to sync**. Click the SSO provider's icon to proceed.
 
-![glean-1700460408766-2x](assets/people-data.en.20231128150723629.en.webp)
+![glean-1700460408766-2x](assets/people-data.en.20231208144202798.webp)
 
-If you wish to setup an alternative source, click the appropriate service and follow the setup instructions. If your data source is not listed, please contact Glean support.
+If you wish to set up an alternative source, click the appropriate service and follow the setup instructions. If your data source is not listed, please contact Glean support.
 
 
 
 ### Attribute Mapping
 
-On the next screen, and if your People Data source supports it, you will be able to map attributes from your directory to the required field in Glean. This is useful if you store user information in a different way than what is standard.
+On the next screen, and if your People Data source supports it, you will be able to map attributes from your directory to the required field in Glean. This is useful if you store user information differently than what is standard.
 
 For example, you might want to infer a user’s location from their manager’s location. If they have an Okta field called `managerLocation`, you could map `managerLocation` to the Glean attribute `location`.
 
@@ -49,11 +56,11 @@ If your People Data source does not support custom mapping in the Glean interfac
 
 ### Initiate the sync
 
-Before you start the sync, you can preview what information will included. For example, how many users will be created, and how many departments you have. If this is different to what you expected, check that you have provided the correct permissions within the People Data source.
+Before you start the sync, you can preview what information will included. For example, how many users will be created, and how many departments you have. If this is different from what you expected, check that you have provided the correct permissions within the People Data source.
 
-Click **Start sync** to begin synchronization. From this point onwards the sync is automatic: Glean will check-in with your People Data source periodically for any changes.
+Click **Start sync** to begin synchronization. From this point onwards, the sync is automatic: Glean will check your People Data source periodically for any changes.
 
-![glean-1700461946880-2x](assets/people-data.en.20231128150723701.en.webp)
+![glean-1700461946880-2x](assets/people-data.en.20231208144202822.webp)
 
 
 
@@ -65,7 +72,7 @@ The synchronization is not immediate: Glean needs to crawl your people data firs
 
 You can return to this page later to validate that your sync is working.
 
-![glean-1700471123347-2x](assets/people-data.en.20231128150723750.en.webp)
+![glean-1700471123347-2x](assets/people-data.en.20231208144202848.webp)
 
 ??? Danger "Having issues?"
     If you do not see people data start to show up within a few hours, this typically points to a permissions issue: Ensure that you have provided Glean with the correct permissions within your IdP when you configured SSO.
@@ -99,7 +106,7 @@ The following are not mandatory, but **highly recommended** fields to enhance th
 
 | Recommended Field | Description                                                  |
 | ----------------- | ------------------------------------------------------------ |
-| `manager_email`   | The email of the user's manager. Required for org chart.     |
+| `manager_email`   | The email of the user's manager. Required for an org chart.     |
 | `location`        | The working location of the user. Required for location-based personalization. |
 | `start_date`      | The start date of the user. To show tenure in the user's profile page. |
 
@@ -115,7 +122,7 @@ Benjamin Benson,b.benson@company.com,Benjamin,Benson,Ben,"Software Engineer",Eng
 
 ### Upload the data
 
-To upload your CSV, please raise a ticket with Glean support.
+To upload your CSV, please raise a ticket with Glean Support.
 
 
 

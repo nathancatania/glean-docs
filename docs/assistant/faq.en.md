@@ -2,6 +2,8 @@
 title: "FAQ"
 description: "A list of Frequently Asked Questions regarding Glean Assistant and Generative AI."
 lang: en
+tags:
+    - "faq"
 authors:
     - "Deedy Das"
     - "Vivek Choksi"

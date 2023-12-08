@@ -81,6 +81,7 @@ markdown_extensions:
 plugins:
   - awesome-pages
   - table-reader
+#  - tags # Disabling tags until they can be repositioned
   - social:
       cards_layout_options:
         cards_layout: default

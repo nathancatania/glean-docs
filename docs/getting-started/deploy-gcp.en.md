@@ -3,16 +3,24 @@ icon: material/google-cloud
 title: Deploying Glean in GCP
 description: Your Glean instance can be deployed within your own GCP environment to allow you to retire compute costs against your committed spend.
 lang: en
+tags:
+    - "getting started"
+    - "administration"
+    - "cloud-prem"
+    - "GCP"
+    - "deployment"
 authors:
   - Nathan Catania
 sources:
   - https://docs.google.com/document/d/1HEGcjUZjhrSamFuSxsbHOyGroU0ut7TmG5sKAWEfrBg/edit
   - https://docs.google.com/spreadsheets/d/1THwN43trfMqwUggrslOKDxLrB3uDIJ536MnIQzwZCV8/edit#gid=921403900
 ---
-![](assets/deploy-gcp.en.20231128230224253.webp)
+
+![](assets/deploy-gcp.en.20231208144202720.webp)
+
 ## About Cloud-prem GCP
 
-Glean provides our customers the ability to deploy Glean software inside of their own GCP Project. This deployment requires your GCP admin to create a new GCP project, associate a **billing account** to it, enable applicable APIs, and request the required quotas from GCP.
+Glean provides our customers the ability to deploy Glean software inside their own GCP Project. This deployment requires your GCP admin to create a new GCP project, associate a **billing account** to it, enable applicable APIs, and request the required quotas from GCP.
 
 After completing the above, Glean's systems will automatically build and deploy the required compute, workflows, and software into your GCP project.
 
@@ -24,7 +32,7 @@ This document will cover the steps required by your GCP admins to prepare a GCP 
 1. Go to the [Manage resources](https://console.cloud.google.com/cloud-resource-manager) page in the GCP console and click Create Project.
 
 2. In the New Project window that appears, add a project name, organization, and location.
-    * For project name, the preferred format is `glean-{customer name}` or `glean-{customer name}-{prod/sandbox}`, eg: `glean-company` or `glean-company-prod`
+    * For the project name, the preferred format is `glean-{customer name}` or `glean-{customer name}-{prod/sandbox}`, e.g. `glean-company` or `glean-company-prod`
 
 3. Make sure your project is created under the same organization as your Google Workplace account, and **not** “No Organization”.
 
@@ -37,11 +45,11 @@ This document will cover the steps required by your GCP admins to prepare a GCP 
 
 6. Notify Glean of the following information:
 
-    a. Project name, eg `glean-company` -> This was set in Step 2 above.
+    a. Project name, eg `glean-company` → This was set in Step 2 above.
     
-    b. Project ID, eg `glean-company` -> This was saved in Step 4 above.
+    b. Project ID, eg `glean-company` → This was saved in Step 4 above.
     
-    c. Project number, eg `715000000000` -> This was saved in Step 4 above.
+    c. Project number, eg `715000000000` → This was saved in Step 4 above.
 
 
 ## 2. Configure Billing
@@ -54,7 +62,7 @@ This document will cover the steps required by your GCP admins to prepare a GCP 
 
 
 ## 3. Enable APIs
-Glean requires that the following GCP APIs are enabled for the deploy to succeed. Substitute your Project ID to the end of the URL for each API below to enable the API on the project.
+Glean requires that the following GCP APIs are enabled for the deployment to succeed. Substitute your Project ID to the end of the URL for each API below to enable the API on the project.
 
 | API Name                                                     | URL                                                          |
 | ------------------------------------------------------------ | ------------------------------------------------------------ |
@@ -99,7 +107,7 @@ The service account is used to allow Glean's systems to access the project and p
 
 4. Ignore the **Grant users access to this service account** option. It is not required.
 
-5. Click **Create Key**. In the panel that appears, select the key type **JSON** then **Create**. This will save a private JSON key to your computer.
+5. Click **Create Key**. In the panel that appears, select the key type **JSON**, then **Create**. This will save a private JSON key to your computer.
 
 
 ## 6. Upload the Service Account Key to the Glean Admin UI
@@ -109,19 +117,19 @@ The service account is used to allow Glean's systems to access the project and p
 
 2. On the page titled Create a Google Cloud Platform project, click the box under Step 2 to upload the private JSON key to Glean.
 
-3. Click **Save**. Glean will now use the JSON key to validate that all of the steps above have been performed correctly.
+3. Click **Save**. Glean will now use the JSON key to validate that all the steps above have been performed correctly.
 
 !!! success
     If the save is successful, your Glean tenant is ready to be built. Contact your Glean contact to proceed.
 
 !!! failure
-    If the save fails, you will be presented with a red error message detailing the issues to correct. The key must save correctly before the build of your Glean tenant can proceed.
+    If the save fails, you will be presented with a red error message detailing the issues to correct. The key must be saved correctly before the build of your Glean tenant can proceed.
 
 
 ## FAQ
 
 !!! quote "I don't want to provide Glean with a service account. Can I build everything myself?"
-No. Glean utilizes Infrastructure as Code (IaC) and as such, all of our build systems are automated. This ensures ensures consistency, reliability, and security in our deployments.
+No. Glean utilizes Infrastructure as Code (IaC) and as such, all of our build systems are automated. This ensures consistency, reliability, and security in our deployments.
 
 Providing Glean with a service account allows us to manage these processes effectively. Attempting to build everything yourself would not only be time-consuming but could also lead to potential errors or security risks.
 
@@ -130,10 +138,11 @@ Providing Glean with a service account allows us to manage these processes effec
 Yes. As part of the build, Glean automatically creates a maintenance service account that is used by our systems to automatically manage, update, and patch your environment. The original JSON key and associated account that you provided Glean can be revoked.
 
 !!! quote "I don't want Glean to be able to access the completed build at all for security reasons. Can I revoke the maintenance account as well?"
-Technically yes, but Glean **strongly recommends that you leave the maintenance account enabled.**
+Technically, yes, but Glean **strongly recommends that you leave the maintenance account enabled.**
 
-**Delibrately restricting or blocking Glean's access to your tenant will void Glean's Service and Support SLAs, and may impact our ability for our support teams to assist you when troubleshooting issues.**
+**Deliberately restricting or blocking Glean's access to your tenant will void Glean's Service and Support SLAs, and may impact the ability of our support teams to assist you when troubleshooting issues.**
 
 This also prevents Glean from rolling updates to your tenant (including security fixes), which may put it at risk.
 
-It is important to remember that Glean is NOT a self-hosted service, and is still cloud-managed; hence we need appropriate access to do so.
+!!! warning
+    Glean is NOT a traditional self-hosted service: the service and all infrastructure is completely managed by Glean, and we need appropriate access to be able to do so.

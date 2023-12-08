@@ -127,9 +127,6 @@ venv.bak/
 # Rope project settings
 .ropeproject
 
-# mkdocs documentation
-/site
-
 # mypy
 .mypy_cache/
 .dmypy.json
@@ -146,3 +143,6 @@ postgres/
 app.db
 .prettierignore
 .obsidian/
+
+translate.py
+consistency-report.md

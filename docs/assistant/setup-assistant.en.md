@@ -2,6 +2,8 @@
 title: "Setup Glean Assistant"
 description: "Set up and activate Glean Assistant for your organization."
 lang: en
+tags:
+    - "assistant"
 authors:
     - "Nathan Catania"
 ---

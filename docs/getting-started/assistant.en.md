@@ -2,34 +2,39 @@
 icon: material/chat-processing-outline
 title: "Setup Glean Assistant"
 description: "Get started with Glean Assistant and enable generative AI for your entire organization."
+lang: en
+tags:
+    - "assistant"
+    - "getting started"
+    - "administration"
 authors:
     - "Nathan Catania"
 ---
-![](assets/assistant.en.20231128232015238.webp)
 
-In this section you will configure and enable Glean Assistant: a suite of enterprise-grade Generative AI features to power your organization.
+![](assets/assistant.en.20231208144201831.webp)
+
+In this section, you will configure and activate Glean Assistant: a suite of enterprise-grade Generative AI capabilities for your organization.
 
 !!! info
-    Before proceeding with this step, you should ensure that all of your initial datasource crawls have finished, as this will enhance the quality of Glean Assistant's responses.
+     Before proceeding with this step, you should ensure that all of your initial datasource crawls are complete, as this will improve the quality of Glean Assistant's answers.
 
 !!! warning "License required"
-    You must be licensed for Glean Assistant to proceed with this step.
+    You must have a license for Glean Assistant to continue.
 
 
 
 ## About Glean Assistant
 
-Glean Assistant is a secure, enterprise-ready digital workplace assistant that respects data access permissions and provides personalized responses based on your organization's data. Think of it like ChatGPT, but with secure access to company information.
+Glean Assistant is a secure, enterprise-ready digital workplace assistant that respects data access permissions and delivers personalized answers based on your organization's data. Think of it like ChatGPT, but with secure access to your company's information.
 
-Glean Assistant is designed to enhance your workplace experience by providing you with the information you need when you need it, in a secure and personalized manner. It understands your company's content, internal language, people, and relationships, which allow Glean Assistant to deliver more relevant and accurate information compared to publicly available generative AI tools.
-
+Glean Assistant is designed to enhance your workplace experience by providing you with the information you need, when you need it, in a secure and personalized manner. It understands your company's content, internal language, people, and relationships, enabling Glean Assistant to deliver more relevant and accurate information than publicly available generative AI tools.
 
 
 ## Activate Glean Assistant
 
-Glean Assistant is currently in Early Access and you must have a valid license for Assistant to proceed. You can activate your access by navigating to [Workspace Settings > Setup > Assistant](https://app.glean.com/admin/setup/gleanassistant){:target="_blank"} and selecting **Activate**.
+Glean Assistant is currently in Early Access, and you must have a valid license for Assistant to continue. You can activate your access by navigating to [Workspace Settings > Setup > Assistant](https://app.glean.com/admin/setup/gleanassistant){:target="_blank"} and selecting **Activate**.
 
-![glean-1700902023812-2x](assets/assistant.en.20231128230550666.webp)
+![glean-1700902023812-2x](assets/assistant.en.20231208144201908.webp)
 
 ??? Danger "Is Assistant greyed out or disabled?"
     If the **Assistant** option under Workspace Settings > Setup is greyed out, this means that:
@@ -37,30 +42,30 @@ Glean Assistant is currently in Early Access and you must have a valid license f
     1. Your People Data sync has not been started, OR
     2. Glean Assistant is not available for activation at this time.
     
-    Please contact Glean support for further assistance.
+    Please contact Glean Support for further assistance.
 
 
 
 ## Assign Users
 
-Glean Assistant can be enabled for the entire organization, or for a select test group of users. Glean recommends enabling Assistant for a test group first before proceeding with rollout to the broader organization.
+Glean Assistant can be enabled for the entire organization or for a selected test group of users. Glean recommends enabling Assistant for a test group first before proceeding with the rollout to the broader organization.
 
 In the [Setup](https://app.glean.com/admin/setup/gleanassistant?tab=setup) tab under the [settings for Glean Assistant](https://app.glean.com/admin/setup/gleanassistant?tab=setup), click to open the **Early access users** dropdown and select either:
 
 * Enabled for all teammates
 * Enabled for test group only
 
-Select **Enabled for test group only** and click the **Add teammates** button to specify the users that should get access to Glean Assistant.
+Select **Enabled for test group only** and click the **Add teammates** button to specify the users who will have access to Glean Assistant.
 
-![glean-1700902522244-2x](assets/assistant.en.20231128230550769.webp)
+![glean-1700902522244-2x](assets/assistant.en.20231208144201932.webp)
 
 ## Enable Glean Assistant
 
 Once you have specified the users that Assistant should be enabled for, click the **Enable Glean Assistant**, button to turn on Assistant for those users.
 
-Alternatively, you can also follow any of the applicable optional steps below to customize Assistant and it's behavior.
+Alternatively, you can also follow any of the applicable optional steps below to customize Assistant and its behavior.
 
-![glean-1700958553013-2x](assets/assistant.en.20231128230550785.webp)
+![glean-1700958553013-2x](assets/assistant.en.20231208144201965.webp)
 
 ## Using Glean Assistant
 
@@ -68,9 +73,9 @@ Alternatively, you can also follow any of the applicable optional steps below to
 
 **Glean Chat** is the dedicated entry point for the Assistant and can be accessed by clicking on the message bubble icon from the left-side menu of the Glean UI (or simply by [clicking here](https://app.glean.com/chat){:target="_blank"}).
 
-![glean-1700959001510-2x](assets/assistant.en.20231128230550814.webp)
+![glean-1700959001510-2x](assets/assistant.en.20231208144201987.webp)
 
-Glean Chat allows users to ask questions like they would a colleague (in a similar interface to ChatGPT), harnessing your company's knowledge in a way that's completely personalized to each user. It is designed to generate a high confidence response using the permission set of the person who posted the question.
+Glean Chat allows users to ask questions like they would a colleague (in a similar interface to ChatGPT), harnessing your company's knowledge in a way that's completely personalized to each user. It is designed to generate a high-confidence response using the permission set of the person who posted the question.
 
 ### AI Answers
 
@@ -78,7 +83,7 @@ Glean Chat allows users to ask questions like they would a colleague (in a simil
 
 They are permissions enforced and provide references to where information is coming from. AI Answers are designed to minimize the extent of hallucination by grounding the generation on the content of your documents and providing citations. They are also deterministic, meaning they are consistent from run to run.
 
-![glean-1700959770299-2x](assets/assistant.en.20231128230550845.webp)
+![glean-1700959770299-2x](assets/assistant.en.20231208144202000.webp)
 
 ### AI Summaries
 
@@ -86,19 +91,19 @@ The AI Summarization feature of Glean Assistant provides concise summaries of do
 
 To summarize a document, hover over a search result and click the **Summarize** button that appears at the top-right of the result.
 
-![glean-1700960609065-2x](assets/assistant.en.20231128230550877.webp)
+![glean-1700960609065-2x](assets/assistant.en.20231208144202033.webp)
 
-Glean Assistant will then summarize the contents of the document with the user being able to ask follow-up questions regarding the document contents.
+Glean Assistant will then summarize the contents of the document, with the user being able to ask follow-up questions regarding the document contents.
 
-![glean-1700960631439-2x](assets/assistant.en.20231128230550895.webp)
+![glean-1700960631439-2x](assets/assistant.en.20231208144202065.webp)
 
 ### Slackbot
 
 If your organization uses Slack, you can configure Glean Assistant as a bot within your Slack workspace to automatically answer questions as employees post them.
 
-The answers Glean Assistant provides are only visibile to the employee that posted the message unless shared more broadly by them.
+The answers Glean Assistant provides are only visible to the employee who posted the message unless shared more broadly by them.
 
-![glean-1700961307469-2x](assets/assistant.en.20231128230550932.webp)
+![glean-1700961307469-2x](assets/assistant.en.20231208144202080.webp)
 
 ## FAQ
 
@@ -108,7 +113,7 @@ For Frequently Asked Questions regarding Glean Assistant, [see here](../assistan
 
 ## (Optional) Use your own API Key
 
-Using Glean's API key for the Large Language Model (LLM) that powers Glean Assistant is strongly recommended, however you may also choose to use your own API key (eg: OpenAI or Azure OpenAI).
+Using Glean's API key for the Large Language Model (LLM) that powers Glean Assistant is strongly recommended, however, you may also choose to use your own API key (eg: OpenAI or Azure OpenAI).
 
 More information: [Using your own API Key](../assistant/byo-key.en.md){:target="_blank"}.
 
@@ -116,7 +121,7 @@ More information: [Using your own API Key](../assistant/byo-key.en.md){:target="
 
 ## (Optional) Recieve User Feedback
 
-Users have the ability to provide feedback to Glean Assistant responses as positive (👍) or negative (👎) with accompanying comments. You can opt to have this feedback sent to a company email for review.
+Users can provide feedback to Glean Assistant responses as positive (👍) or negative (👎) with accompanying comments. You can opt to have this feedback sent to a company email for review.
 
 Glean recommends that you configure a separate alias for this to assist in routing and reviews. You may also wish to automatically ingest this feedback into a ticketing system like Jira, Zendesk, or ServiceNow.
 
@@ -125,7 +130,7 @@ To configure feedback emails:
 1. Select the [Settings](https://app.glean.com/admin/setup/gleanassistant?tab=settings){:target="_blank"} tab under the settings for Glean Assistant.
 2. Expand the **Feedback emails** dropdown, and populate the destination email address.
 
-![glean-1700920092571-2x](assets/assistant.en.20231128230550958.webp)
+![glean-1700920092571-2x](assets/assistant.en.20231208144202115.webp)
 
 
 
@@ -133,13 +138,13 @@ To configure feedback emails:
 
 You can exclude certain content from ever being sent to an LLM across all Glean Assistant interfaces.
 
-For example, if you exclude a document, Assistant will not use any data from that document to generate responses; even if a user is permitted to access the document content.
+For example, if you exclude a document, Glean Assistant will not use any data from that document to generate responses; even if a user is permitted to access the document content.
 
 Exclusions can be set based on:
 
-* **Datasource** - You can select an entire datasource to exclude from Assistant, eg: Workday.
-* **Containers** - A container is a group of content that spans across multiple datasources. Useful for excluding specific content in more than one location, eg: `spreadsheets`, `from: user=nathan@company.com`, etc
-* **Documents** - You can select individual documents to exclude from Assistant, eg: `plans_for_world_domination.docx`
+* **Datasource** - You can select an entire datasource to exclude from Assistant, e.g. Workday.
+* **Containers** - A container is a group of content that spans across multiple datasources. Useful for excluding specific content in more than one location, e.g. `spreadsheets`, `from: user=nathan@company.com`, etc.
+* **Documents** - You can select individual documents to exclude from Assistant, e.g. `plans_for_world_domination.docx`
 
 To configure exclusions:
 
@@ -147,7 +152,7 @@ To configure exclusions:
 2. Expand the **Exclusion rules** dropdown, and populate datasources, containers, or documents you wish to exclude. The Glean UI will help you find and identify the IDs of the containers or documents you need to exclude.
 3. Click **Save** to persist your changes.
 
-![glean-1700920843593-2x](assets/assistant.en.20231128230550979.webp)
+![glean-1700920843593-2x](assets/assistant.en.20231208144202136.webp)
 
 ## (Optional) Provide Custom Instructions
 
@@ -155,7 +160,7 @@ You can optionally provide Glean Assistant with up to 5 custom instructions to b
 
 For example:
 
-> Ensure you remind users that their answer may not be accurate and to double check with citations.
+> Ensure that you remind users that their answers may not be accurate.
 >
 > If the question is for IT support, prefer looking at Zendesk.
 >
@@ -174,7 +179,7 @@ To add custom instructions:
 2. Expand the **Advanced instructions** dropdown.
 3. Click the **Add** button and specify your instruction.
 
-![glean-1700920967224-2x](assets/assistant.en.20231128230551004.webp)
+![glean-1700920967224-2x](assets/assistant.en.20231208144202163.webp)
 
 
 
