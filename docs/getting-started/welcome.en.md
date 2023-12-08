@@ -1,15 +1,16 @@
 ---
 icon: material/hand-wave
-title: "Getting Started"
-description: "Start with Glean here"
+title: Getting Started
+description: Start with Glean here
+lang: en
 authors:
-    - "Nathan Catania"
+  - Nathan Catania
 ---
 # Welcome to Glean!
 
 ![](assets/welcome.en.20231128232433996.webp)
 
-Thank you for choosing Glean as your knowledge management solution. We're thrilled to have you onboard and are committed to ensuring a smooth and successful setup for your organization.
+Thank you for choosing Glean as your knowledge management solution. We're thrilled to have you on board and are committed to ensuring a smooth and successful setup for your organization.
 
 ## What is Glean?
 

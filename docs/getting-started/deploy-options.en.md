@@ -37,22 +37,22 @@ In terms of access to your tenant:
 
 
 ## Cloud-prem (GCP/AWS) Hosted
-In the Cloud-prem model, your Glean tenant is deployed and managed by Glean within your own cloud environment (ie: GCP, AWS). 
+In the Cloud-prem model, your Glean tenant is deployed and managed by Glean within your own cloud environment (i.e. GCP, AWS). 
 
 This has a few advantages:
 
 1. **Data Security and Control:** Know exactly where your data is and the fact that the data never leaves your environment. Control GCP/AWS IAM policies yourself and retain direct access to logs.
 
-2. **Retire Spend Against Your Commit:** Retire the costs of hosting Glean against your spend committment with GCP or AWS.
+2. **Retire Spend Against Your Commit:** Retire the costs of hosting Glean against your spend commitment with GCP or AWS.
 
-3. **Lower Glean Pricing:** Recieve a discount on your Glean subscription cost as we no longer need to host the infrastructure for your tenant ourselves.
+3. **Lower Glean Pricing:** Receive a discount on your Glean subscription cost as we no longer need to host the infrastructure for your tenant ourselves.
 
 Unlike traditional "self-hosted" options, with the cloud-prem model Glean still fully manages your deployment; including upgrades, patching, and monitoring - exactly the same as the Glean hosted option.
 
 This is possible, without having access to any of your company data within your tenant, due to restricted IAM controls that put in place during build of your tenant. These controls restrict Glean access to only project management with no access to underlying data stored in the project.
 
 !!! warning
-    Delibrately restricting or blocking Glean access to your tenant will void Glean's Service and Support SLAs, and may impact our ability for our support teams to assist you when troubleshooting issues.
+    Deliberately restricting or blocking Glean access to your tenant will void Glean's Service and Support SLAs, and may impact our ability for our support teams to assist you when troubleshooting issues.
     
     This also prevents Glean from rolling updates to your tenant (including security fixes), which may put it at risk.
 
