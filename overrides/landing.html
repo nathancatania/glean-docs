@@ -1,0 +1,72 @@
+{% extends "main.html" %}
+
+{% block styles %}
+    {{ super() }}
+
+{% endblock %}
+
+<!-- Render hero under tabs -->
+{% block tabs %}
+  {{ super() }}
+
+<!-- Hero -->
+<main id="content" role="main">
+    <div class="hero-landing">
+        <div class="container content-space-2">
+          <div class="row justify-content-lg-between align-items-md-center">
+            <div class="col-md-6 mb-0">
+              <div class="mb-3">
+                <h1>How can we help?</h1>
+              </div>
+    
+              <form>
+                <!-- Input Card -->
+                <div class="input-card mb-3">
+                  <div class="input-card-form">
+                    <label for="searchAnswersForm" class="form-label visually-hidden">Search for answers</label>
+                    <input type="text" class="form-control form-control-lg" id="searchAnswersForm" placeholder="Search for answers" aria-label="Search for answers">
+                  </div>
+                  <button type="button" class="btn btn-primary btn-lg">
+                    <span class="twemoji">
+                      {% include ".icons/material/magnify.svg" %}
+                    </span>
+                  </button>
+                </div>
+                <!-- End Input Card -->
+              </form>
+    
+              <!-- Links -->
+              <div class="d-flex hero-links">
+              
+                <a class="link" href="https://developers.cloudflare.com/changelog/">Release Notes</a>&nbsp;-&nbsp;
+                <a class="link" href="#">Status</a>&nbsp;-&nbsp;
+                <a class="link" href="https://developers.cloudflare.com/glossary/">Glossary</a>
+              </div>
+              <!-- End Links -->
+            </div>
+            <!-- End Col -->
+    
+            <div class="col-md-5">
+              <img class="img-fluid landing-img" src="../assets/images/hero-orb.png">
+                  
+                
+            </div>
+            <!-- End Col -->
+          </div>
+          <!-- End Row -->
+        </div>
+      </div>
+      <!-- End Hero -->
+</main>
+
+{% endblock %}
+
+<!-- Content -->
+{% block content %}
+{{ super() }}
+{% endblock %}
+
+
+<!-- Application footer -->
+{% block footer %}{{super()}}{% endblock %}
+

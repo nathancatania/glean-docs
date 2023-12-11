@@ -1,73 +1,48 @@
 ---
 title: "Welcome to the Glean Help Center"
 description: "The Glean Help Center is your one-stop-shop for everything Glean!"
+template: landing.html
+hide:
+  - title
+  - navigation
+  - toc
 ---
-
-# Welcome to the Glean Help Center for Administrators
-This documentation is indended for company admins who are responsible for configuring and managing Glean for company-wide use.
-
-If you are a user of Glean at your company, click here to see content relevant to you instead.
-
----
-
-```
-TODO: Add a Glean search box here and make layout wide and bright.
-This would be a great entry point for Glean assistant.
-
-Eg: "How do I configure SSO in Glean"?
-And it tells them the answer based on these documents.
-```
-
-Pick a section that is most relevant to you, or search for something that you need.
-
+<style>
+  .md-typeset h1,
+  .md-content__button {
+    display: none;
+  }
+</style>
 <div class="grid cards" markdown>
 
--   :material-clock-fast:{ .lg .middle } __Getting started__
+-   :material-hand-wave:{ .lg .middle } __Getting Started__
 
     ---
 
-    Get Glean configured and ready for use within your organization.
+    New to Glean?<br><br>Let's guide you through the initial setup for your organization.
 
-    [:octicons-arrow-right-24: Getting started](#)
+    <br>[:octicons-arrow-right-24: Start Here](getting-started/welcome.en.md)
 
--   :fontawesome-brands-markdown:{ .lg .middle } __Search__
-
-    ---
-
-    Focus on your content and generate a responsive and searchable static site
-
-    [:octicons-arrow-right-24: Reference](#)
-
--   :material-format-font:{ .lg .middle } __Generative AI__
+-   :material-clock-fast:{ .lg .middle } __Recently Updated__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    * [OneDrive & SharePoint Configuration](search/connectors/microsoft/configure-spo.md)
+    * [GCP Deployment Guide](getting-started/deploy-gcp.md)
+    * [Use Your Own API Key](assistant/byo-key.md)
+    * [Crawling Frequency](search/connectors/crawling-frequency.en.md)
+    * [Atlassian Connector Support for Content Restrictions](search/connectors/atlassian/restrict-atlassian.md)
 
-    [:octicons-arrow-right-24: Customization](#)
-
--   :material-scale-balance:{ .lg .middle } __Administration__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
-
--   :material-format-font:{ .lg .middle } __API__
+-   :material-trending-up:{ .lg .middle } __Popular__
 
     ---
 
-    Change the colors, fonts, language, icons, logo and more with a few lines
+    * [Setup Glean Assistant](getting-started/assistant.md)
+    * [Knowledge Graph](search/knowledge-graph.md)
+    * [Glean Deployment Options](getting-started/deploy-options.md)
+    * [Setup Single Sign-On (SSO)](getting-started/sso.md)
+    * [About Connectors](search/connectors/about-connectors.md)
 
-    [:octicons-arrow-right-24: Customization](#)
 
--   :material-scale-balance:{ .lg .middle } __Support Portal__
-
-    ---
-
-    Material for MkDocs is licensed under MIT and available on [GitHub]
-
-    [:octicons-arrow-right-24: License](#)
 
 </div>

@@ -11,6 +11,7 @@ copyright: "&copy; 2023, Glean Technologies, Inc."
 theme:
   language: en
   name: material
+  custom_dir: overrides
   favicon: assets/images/favicon.png
   logo: assets/images/banner-logo.svg
   palette:

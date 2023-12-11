@@ -1,78 +1,423 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
     <url>
-         <loc>https://help.glean.com/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/assistant/about/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/administration/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/administration/about/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/administration/about/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/assistant/byo-key/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/assistant/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/about/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/about/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/assistant/faq/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/assistant/byo-key/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/byo-key/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/byo-key/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/adminui/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/assistant/faq/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/faq/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/assistant/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/assistant/setup-assistant/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/setup-assistant/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/setup-assistant/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/customize-workspace/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/adminui/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/adminui/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/adminui/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/datasources/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/assistant/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/assistant/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/assistant/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/deploy-apps/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/customize-workspace/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/customize-workspace/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/customize-workspace/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/deploy-aws/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/datasources/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/datasources/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/datasources/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/deploy-gcp/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/deploy-apps/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-apps/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-apps/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/deploy-options/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/deploy-aws/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-aws/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-aws/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/people-data/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/deploy-gcp/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-gcp/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-gcp/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/sso/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/deploy-options/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-options/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-options/"/>
     </url>
     <url>
-         <loc>https://help.glean.com/getting-started/welcome/</loc>
-         <lastmod>2023-11-27</lastmod>
-         <changefreq>daily</changefreq>
+        <loc>http://127.0.0.1:8000/getting-started/people-data/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/people-data/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/people-data/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/getting-started/sso/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/sso/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/sso/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/getting-started/welcome/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/welcome/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/welcome/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/platform/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/platform/about/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/platform/about/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/about-search/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/about-search/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/about-search/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/faq/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/faq/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/faq/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/knowledge-graph/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/knowledge-graph/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/knowledge-graph/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/about-connectors/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/about-connectors/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/about-connectors/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/content-restrictions/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/content-restrictions/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/content-restrictions/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/crawling-frequency/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/crawling-frequency/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/crawling-frequency/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/atlassian/about-atlassian/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/about-atlassian/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/about-atlassian/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/atlassian/configure-jira/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/configure-jira/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/configure-jira/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/atlassian/restrict-atlassian/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/restrict-atlassian/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/restrict-atlassian/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/microsoft/about-m365/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/about-m365/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/about-m365/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/microsoft/configure-spo/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/configure-spo/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/configure-spo/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/search/connectors/microsoft/restrict-m365/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/restrict-m365/"/>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/restrict-m365/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/administration/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/administration/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/administration/about/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/assistant/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/about/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/assistant/byo-key/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/byo-key/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/byo-key/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/assistant/faq/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/faq/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/assistant/setup-assistant/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/assistant/setup-assistant/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/assistant/setup-assistant/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/adminui/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/adminui/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/adminui/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/assistant/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/assistant/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/assistant/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/customize-workspace/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/customize-workspace/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/customize-workspace/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/datasources/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/datasources/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/datasources/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/deploy-apps/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-apps/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-apps/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/deploy-aws/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-aws/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-aws/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/deploy-gcp/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-gcp/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-gcp/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/deploy-options/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/deploy-options/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/deploy-options/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/people-data/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/people-data/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/people-data/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/sso/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/sso/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/sso/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/getting-started/welcome/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/getting-started/welcome/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/getting-started/welcome/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/platform/about/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/platform/about/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/platform/about/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/about-search/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/about-search/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/about-search/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/faq/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/faq/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/faq/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/knowledge-graph/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/knowledge-graph/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/knowledge-graph/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/about-connectors/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/about-connectors/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/about-connectors/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/content-restrictions/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/content-restrictions/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/content-restrictions/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/crawling-frequency/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/crawling-frequency/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/crawling-frequency/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/atlassian/about-atlassian/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/about-atlassian/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/about-atlassian/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/atlassian/configure-jira/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/configure-jira/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/configure-jira/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/atlassian/restrict-atlassian/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/atlassian/restrict-atlassian/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/atlassian/restrict-atlassian/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/microsoft/about-m365/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/about-m365/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/about-m365/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/microsoft/configure-spo/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/configure-spo/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/configure-spo/"/>
+    </url>
+    <url>
+        <loc>http://127.0.0.1:8000/ja/search/connectors/microsoft/restrict-m365/</loc>
+        <lastmod>2023-12-11</lastmod>
+        <changefreq>daily</changefreq>
+        <xhtml:link rel="alternate" hreflang="ja" href="http://127.0.0.1:8000/ja/search/connectors/microsoft/restrict-m365/"/>
+        <xhtml:link rel="alternate" hreflang="en" href="http://127.0.0.1:8000/search/connectors/microsoft/restrict-m365/"/>
     </url>
 </urlset>
