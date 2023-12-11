@@ -9,14 +9,14 @@
 ## Content
 
 ### Getting Started
-- [x] Welcome/Admin UI pages
-- [x] SSO/People Data pages
-- [x] Datasources
-- [x] Glean Assistant
-- [x] Workspace Customization
-- [x] Deploy Extensions/Apps
-- [x] Deploy options overview
-- [x] GCP Deployment Guide
+- [x] ~~Welcome/Admin UI pages~~
+- [x] ~~SSO/People Data pages~~
+- [x] ~~Datasources~~
+- [x] ~~Glean Assistant~~
+- [x] ~~Workspace Customization~~
+- [x] ~~Deploy Extensions/Apps~~
+- [x] ~~Deploy options overview~~
+- [x] ~~GCP Deployment Guide~~
 - [ ] AWS Deployment Guide
 
 ### Architecture
@@ -26,46 +26,46 @@
 - [ ] ???
 
 ### Search
-- [x] About Search
-- [x] Knowledge Graph
+- [x] ~~About Search~~
+- [x] ~~Knowledge Graph~~
 - [ ] FAQ
-- [x] About Connectors
-- [x] Content Restrictions Overview
-- [x] Crawling Frequency/Strategy
+- [x] ~~About Connectors~~
+- [x] ~~Content Restrictions Overview~~
+- [x] ~~Crawling Frequency/Strategy~~
 
 ### Connectors
 #### Atlassian
-- [x] Overview
+- [x] ~~Overview~~
 - [ ] Dataflow diagram (include in overview doc)
-- [x] Jira Configuration
+- [x] ~~Jira Configuration~~
 - [ ] Confluence Configuration
 - [ ] API Endpoints
-- [x] Atlassian Content Restrictions (redlist/greenlist)
+- [x] ~~Atlassian Content Restrictions (redlist/greenlist)~~
 
 #### Microsoft
-- [x] Overview
+- [x] ~~Overview~~
 - [ ] Dataflow diagram (include in overview doc)
-- [x] OneDrive/Sharepoint Configuration
+- [x] ~~OneDrive/Sharepoint Configuration~~
 - [ ] Teams Configuration
 - [ ] Outlook Configuration
 - [ ] API Endpoints
-- [x] M365 Content Restrictions (redlist/greenlist)
+- [x] ~~M365 Content Restrictions (redlist/greenlist)~~
 
 ### Assistant
-- [x] About Glean Assistant
-- [x] Setup Glean Assistant
-- [x] Exclusion Rules
-- [x] Receive User Feedback
-- [x] Custom Instructions
-- [x] BYO Key
-- [x] Estimating BYO Key Usage
+- [x] ~~About Glean Assistant~~
+- [x] ~~Setup Glean Assistant~~
+- [x] ~~Exclusion Rules~~
+- [x] ~~Receive User Feedback~~
+- [x] ~~Custom Instructions~~
+- [x] ~~BYO Key~~
+- [x] ~~Estimating BYO Key Usage~~
 - [ ] Using Glean Chat
 - [ ] AI Answers
 - [ ] AI Summaries
 - [ ] Slackbot
 - [ ] Teamsbot
 - [ ] Supported LLMs
-- [x] FAQ
+- [x] ~~FAQ~~
 
 ### Platform
 - [ ] About AI Apps
@@ -77,7 +77,7 @@ Everything to do with Workspace Settings
 #### SSO
 - [ ] About SSO
 - [ ] About OIDC & SAML
-- [x] Configure Azure AD/Entra ID (OIDC)
+- [x] ~~Configure Azure AD/Entra ID (OIDC)~~
 - [ ] Configure Azure AD/Entra ID (SAML)
 - [ ] Configure Okta (OIDC)
 - [ ] Configure Okta (SAML)
