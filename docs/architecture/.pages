@@ -1,0 +1,8 @@
+# Navigation
+nav:
+  - About Glean: about.en.md
+  - Deployment Process: deployment.en.md
+  - Architecture Overview: architecture.en.md
+  - Data Flow: data-flow.en.md
+  - Upgrade Model: upgrade-model.en.md
+  - Shared Responsibilities: shared-responsibilities.en.md

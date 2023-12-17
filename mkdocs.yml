@@ -1,12 +1,14 @@
 site_name: Help Center
-site_url: http://127.0.0.1:8000/
+site_url: "https://help.glean.com"
 site_description: "Glean Help Center"
-repo_url: https://github.com/nathancatania/Glean-Docs
-repo_name: GitHub
-edit_uri: blob/main/docs/
+repo_url: https://github.com/nathancatania/glean-docs
+repo_name: glean/glean-docs
+edit_uri: edit/main/docs/
 copyright: "&copy; 2023, Glean Technologies, Inc."
 
-    
+announcement:
+  message: "Testing!"
+  status: "info"
 
 theme:
   language: en
@@ -14,6 +16,8 @@ theme:
   custom_dir: overrides
   favicon: assets/images/favicon.png
   logo: assets/images/banner-logo.svg
+  icon:
+    repo: material/github
   palette:
     # Palette toggle for light mode
     - media: "(prefers-color-scheme: light)"
@@ -30,14 +34,15 @@ theme:
         name: Switch to system preference
   
   features:
-    #- navigation.instant
-    #- navigation.instant.progress
     - navigation.indexes
     - navigation.tabs
     - navigation.sections
     - navigation.top
     - navigation.footer
     - navigation.path
+    - announce.dismiss
+    - content.action.edit
+    - content.action.view
 
 extra:
   generator: false
@@ -67,6 +72,7 @@ markdown_extensions:
   - def_list
   - admonition
   - pymdownx.details
+  - meta
   - pymdownx.superfences:
       custom_fences:
         - name: mermaid
@@ -82,11 +88,12 @@ markdown_extensions:
 plugins:
   - awesome-pages
   - table-reader
+  - search
 #  - tags # Disabling tags until they can be repositioned
   - social:
       cards_layout_options:
         cards_layout: default
-        background_color: #343CED # Change background color
+        background_color: "#343CED" # Change background color
   - i18n:
       docs_structure: suffix
       fallback_to_default: true
@@ -99,6 +106,45 @@ plugins:
         - locale: ja
           name: Japanese
           build: true
+          nav_translations:
+            Home: ホーム
+            Getting Started: はじめに
+            Architecture: アーキテクチャ
+            Search: 検索
+            Assistant: アシスタント
+            Platform: プラットフォーム
+            Administration: 管理
+            API: API
+            Support Portal: サポートポータル
+            Welcome: ようこそ
+            Access the Admin UI: 管理者UIにアクセス
+            Setup Single Sign-On (SSO): シングルサインオン（SSO）のセットアップ
+            Sync People Data: 人データの同期
+            Connect Datasources: データソースの接続
+            Setup Glean Assistant: Gleanアシスタントのセットアップ
+            Post-Setup: セットアップ後
+            Customize your Workspace: ワークスペースのカスタマイズ
+            Deploy the Glean Extension: Glean拡張機能のデプロイ
+            Self Hosted: セルフホスト
+            Glean Deployment Options: Gleanデプロイオプション
+            Deploying Glean in GCP: GCPでのGleanのデプロイ
+            Deploying Glean in AWS: AWSでのGleanのデプロイ
+  - blog:
+      enabled: false
+      # Disabled blog due to current incompatibility with mkdocs-static-i18n: https://github.com/ultrabug/mkdocs-static-i18n/pull/268#issuecomment-1779215704
+      blog_dir: blog
+      post_dir: "{blog}/posts"
+      post_date_format: long
+      post_url_format: "{slug}"
+      draft_if_future_date: true
+      draft_on_serve: true
+      blog_toc: true
+  - git-revision-date-localized:
+      type: date
+  - git-committers:
+      repository: nathancatania/glean-docs
+      branch: main
+      enabled: !ENV [CI, false]
 
 
 extra_css:
@@ -116,3 +162,5 @@ extra_css:
 #       - Setup Glean Assistant: getting-started/assistant.md
 #   - Assistant:
 #       - assistant/*
+
+

@@ -1,6 +1,7 @@
 # TODO
 
 ## Theme
+- [x] ~~Build custom landing page in Glean style~~
 - [ ] Build code to auto-populate "Recently Updated" on landing page.
 - [ ] Integrate Glean Search into search box.
 - [ ] Add Search box to header.

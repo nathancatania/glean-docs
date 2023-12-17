@@ -1,8 +1,4 @@
 # Navigation
 nav:
   - About Workspace Settings: about.en.md
-  - Glean Apps:
-    - Browser Extensions:
-      - about.en.md
-    - Desktop Apps:
-      - about.en.md
+  - Deployment: deployment

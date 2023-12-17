@@ -14,11 +14,11 @@
       
       
       
-        <link rel="next" href="getting-started/welcome/">
+        <link rel="next" href="administration/about/">
       
       
         
-          <link rel="alternate" href="/" hreflang="en">
+          <link rel="alternate" href="/en/" hreflang="en">
         
           <link rel="alternate" href="/ja/" hreflang="ja">
         
@@ -97,11 +97,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#welcome-to-the-glean-help-center-for-administrators" class="md-skip">
-          コンテンツにスキップ
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -112,7 +107,7 @@
 
 <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="ヘッダー">
-    <a href="./" title="Help Center" class="md-header__button md-logo" aria-label="Help Center" data-md-component="logo">
+    <a href=".." title="Help Center" class="md-header__button md-logo" aria-label="Help Center" data-md-component="logo">
       
   <img src="../assets/images/banner-logo.svg" alt="logo">
 
@@ -178,7 +173,7 @@
       <ul class="md-select__list">
         
           <li class="md-select__item">
-            <a href="/" hreflang="en" class="md-select__link">
+            <a href="/en/" hreflang="en" class="md-select__link">
               English
             </a>
           </li>
@@ -194,6 +189,43 @@
   </div>
 </div>
     
+    
+      <label class="md-header__button md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+      </label>
+      <div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="検索" placeholder="検索" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" required>
+      <label class="md-search__icon md-icon" for="__search">
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+        
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12Z"/></svg>
+      </label>
+      <nav class="md-search__options" aria-label="検索">
+        
+        <button type="reset" class="md-search__icon md-icon" title="クリア" aria-label="クリア" tabindex="-1">
+          
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41 17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41Z"/></svg>
+        </button>
+      </nav>
+      
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            検索を初期化
+          </div>
+          <ol class="md-search-result__list" role="presentation"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
     
     
       <div class="md-header__source">
@@ -226,11 +258,9 @@
         
   
   
-    
   
-  
-    <li class="md-tabs__item md-tabs__item--active">
-      <a href="./" class="md-tabs__link">
+    <li class="md-tabs__item">
+      <a href="../index.md" class="md-tabs__link">
         
   
     
@@ -402,46 +432,45 @@
 
 <!-- Hero -->
 <main id="content" role="main">
-    <div class="bg-light">
+    <div class="hero-landing">
         <div class="container content-space-2">
           <div class="row justify-content-lg-between align-items-md-center">
-            <div class="col-md-6 mb-5 mb-md-0">
+            <div class="col-md-6 mb-0">
               <div class="mb-3">
-                <h1>How can we help?</h1>
+                <h1>どうすればいいのか?</h1>
               </div>
     
               <form>
                 <!-- Input Card -->
                 <div class="input-card mb-3">
                   <div class="input-card-form">
-                    <label for="searchAnswersForm" class="form-label visually-hidden">Search for answers</label>
-                    <input type="text" class="form-control form-control-lg" id="searchAnswersForm" placeholder="Search for answers" aria-label="Search for answers">
+                    <label for="searchAnswersForm" class="form-label visually-hidden">答えを探す</label>
+                    <input type="text" class="form-control form-control-lg" id="searchAnswersForm" placeholder="答えを探す" aria-label="答えを探す">
                   </div>
-                  <button type="button" class="btn btn-primary btn-lg" style="color:#fff;">
-                    <span class="twemoji" style="color:#fff;">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg> Search
-                      </span>
+                  <button type="button" class="btn btn-primary btn-lg">
+                    <span class="twemoji">
+                      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0 1 16 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 0 1 9.5 16 6.5 6.5 0 0 1 3 9.5 6.5 6.5 0 0 1 9.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5Z"/></svg>
+                    </span>
                   </button>
                 </div>
                 <!-- End Input Card -->
               </form>
     
               <!-- Links -->
-              <div class="d-flex">
-                <p class="text-nowrap">Popular help topics:</p>
+              <div class="d-flex hero-links">
               
-                <ul class="list-inline ms-1 mb-0">
-                  <li class="list-inline-item"><a class="link" href="#">pricing,</a></li>
-                  <li class="list-inline-item"><a class="link" href="#">upgrade,</a></li>
-                  <li class="list-inline-item"><a class="link" href="#">hosting</a></li>
-                </ul>
+                <a class="link" href="https://developers.cloudflare.com/changelog/">リリースノート</a>&nbsp;-&nbsp;
+                <a class="link" href="#">ステータス</a>&nbsp;-&nbsp;
+                <a class="link" href="https://developers.cloudflare.com/glossary/">用語集</a>
               </div>
               <!-- End Links -->
             </div>
             <!-- End Col -->
     
             <div class="col-md-5">
-              <img class="img-fluid landing-img" src="assets/images/oc-looking-for-answers.svg" alt="Image Description">
+              <img class="img-fluid landing-img" src="../assets/images/hero-orb.png">
+                  
+                
             </div>
             <!-- End Col -->
           </div>
@@ -449,332 +478,6 @@
         </div>
       </div>
       <!-- End Hero -->
-    
-      <!-- Card Grid -->
-      <div class="container content-space-2 content-space-lg-3">
-        <div class="row mb-5">
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" d="M4.05424 15.1982C8.34524 7.76818 13.5782 3.26318 20.9282 2.01418C21.0729 1.98837 21.2216 1.99789 21.3618 2.04193C21.502 2.08597 21.6294 2.16323 21.7333 2.26712C21.8372 2.37101 21.9144 2.49846 21.9585 2.63863C22.0025 2.7788 22.012 2.92754 21.9862 3.07218C20.7372 10.4222 16.2322 15.6552 8.80224 19.9462L4.05424 15.1982ZM3.81924 17.3372L2.63324 20.4482C2.58427 20.5765 2.5735 20.7163 2.6022 20.8507C2.63091 20.9851 2.69788 21.1082 2.79503 21.2054C2.89218 21.3025 3.01536 21.3695 3.14972 21.3982C3.28408 21.4269 3.42387 21.4161 3.55224 21.3672L6.66524 20.1802L3.81924 17.3372ZM16.5002 5.99818C16.2036 5.99818 15.9136 6.08615 15.6669 6.25097C15.4202 6.41579 15.228 6.65006 15.1144 6.92415C15.0009 7.19824 14.9712 7.49984 15.0291 7.79081C15.0869 8.08178 15.2298 8.34906 15.4396 8.55884C15.6494 8.76862 15.9166 8.91148 16.2076 8.96935C16.4986 9.02723 16.8002 8.99753 17.0743 8.884C17.3484 8.77046 17.5826 8.5782 17.7474 8.33153C17.9123 8.08486 18.0002 7.79485 18.0002 7.49818C18.0002 7.10035 17.8422 6.71882 17.5609 6.43752C17.2796 6.15621 16.8981 5.99818 16.5002 5.99818Z" fill="#035A4B"/>
-                      <path d="M4.05423 15.1982L2.24723 13.3912C2.15505 13.299 2.08547 13.1867 2.04395 13.0632C2.00243 12.9396 1.9901 12.8081 2.00793 12.679C2.02575 12.5498 2.07325 12.4266 2.14669 12.3189C2.22013 12.2112 2.31752 12.1219 2.43123 12.0582L9.15323 8.28918C7.17353 10.3717 5.4607 12.6926 4.05423 15.1982V15.1982ZM8.80023 19.9442L10.6072 21.7512C10.6994 21.8434 10.8117 21.9129 10.9352 21.9545C11.0588 21.996 11.1903 22.0083 11.3195 21.9905C11.4486 21.9727 11.5718 21.9252 11.6795 21.8517C11.7872 21.7783 11.8765 21.6809 11.9402 21.5672L15.7092 14.8442C13.6269 16.8245 11.3061 18.5377 8.80023 19.9442V19.9442ZM7.04023 18.1832L12.5832 12.6402C12.7381 12.4759 12.8228 12.2577 12.8195 12.032C12.8161 11.8063 12.725 11.5907 12.5653 11.4311C12.4057 11.2714 12.1901 11.1803 11.9644 11.1769C11.7387 11.1736 11.5205 11.2583 11.3562 11.4132L5.81323 16.9562L7.04023 18.1832Z" fill="#035A4B"/>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Getting started</h3>
-                    <p class="card-text text-body">Welcome to Front! We're so glad you're here. Let's get started!</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img1.jpg" alt="Image Description">
-                          </div>
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img8.jpg" alt="Image Description">
-                          </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">1 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Luisa Woodfine
-                          <span class="text-muted">and</span>
-                          Neil Galavan
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-    
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" d="M22 12C22 17.5 17.5 22 12 22C6.5 22 2 17.5 2 12C2 6.5 6.5 2 12 2C17.5 2 22 6.5 22 12ZM12 7C10.3 7 9 8.3 9 10C9 11.7 10.3 13 12 13C13.7 13 15 11.7 15 10C15 8.3 13.7 7 12 7Z" fill="#035A4B"/>
-                      <path d="M12 22C14.6 22 17 21 18.7 19.4C17.9 16.9 15.2 15 12 15C8.8 15 6.09999 16.9 5.29999 19.4C6.99999 21 9.4 22 12 22Z" fill="#035A4B"/>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Account</h3>
-                    <p class="card-text text-body">Adjust your profile and preferences to make Front work just for you!</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img9.jpg" alt="Image Description">
-                          </div>
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description">
-                          </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">2 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Fiona Burke, Luisa Woodfine
-                          <span class="text-muted">and</span>
-                          Neil Galavan
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-    
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <g id="com/com014">
-                      <path id="vector" opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M4 4L11.6314 2.56911C11.875 2.52343 12.125 2.52343 12.3686 2.56911L20 4V11.9033C20 15.696 18.0462 19.2211 14.83 21.2313L12.53 22.6687C12.2057 22.8714 11.7943 22.8714 11.47 22.6687L9.17001 21.2313C5.95382 19.2211 4 15.696 4 11.9033L4 4Z" fill="#035A4B"/>
-                      <path id="group" fill-rule="evenodd" clip-rule="evenodd" d="M9.5 10.5C9.5 9.11929 10.6193 8 12 8C13.3807 8 14.5 9.11929 14.5 10.5V11C15.0523 11 15.5 11.4477 15.5 12V15C15.5 15.5523 15.0523 16 14.5 16H9.5C8.94772 16 8.5 15.5523 8.5 15V12C8.5 11.4477 8.94772 11 9.5 11V10.5ZM12 9C11.1716 9 10.5 9.67157 10.5 10.5V11H13.5V10.5C13.5 9.67157 12.8284 9 12 9Z" fill="#035A4B"/>
-                      </g>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Data security</h3>
-                    <p class="card-text text-body">Detailed information on how our customer data is securely stored.</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img9.jpg" alt="Image Description">
-                          </div>
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img4.jpg" alt="Image Description">
-                          </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">5 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Fiona Burke, Luisa Woodfine, Neil Galavan
-                          <span class="text-muted">and</span>
-                          Monica Garcia
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-    
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" d="M18 10V20C18 20.6 18.4 21 19 21C19.6 21 20 20.6 20 20V10H18Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M11 10V17H6V10H4V20C4 20.6 4.4 21 5 21H12C12.6 21 13 20.6 13 20V10H11Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M10 10C10 11.1 9.1 12 8 12C6.9 12 6 11.1 6 10H10Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M18 10C18 11.1 17.1 12 16 12C14.9 12 14 11.1 14 10H18Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M14 4H10V10H14V4Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M17 4H20L22 10H18L17 4Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M7 4H4L2 10H6L7 4Z" fill="#035A4B"/>
-                      <path d="M6 10C6 11.1 5.1 12 4 12C2.9 12 2 11.1 2 10H6ZM10 10C10 11.1 10.9 12 12 12C13.1 12 14 11.1 14 10H10ZM18 10C18 11.1 18.9 12 20 12C21.1 12 22 11.1 22 10H18ZM19 2H5C4.4 2 4 2.4 4 3V4H20V3C20 2.4 19.6 2 19 2ZM12 17C12 16.4 11.6 16 11 16H6C5.4 16 5 16.4 5 17C5 17.6 5.4 18 6 18H11C11.6 18 12 17.6 12 17Z" fill="#035A4B"/>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Market</h3>
-                    <p class="card-text text-body">Some further explanation on when Front can and cannot be used.</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img7.jpg" alt="Image Description">
-                          </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">3 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Luisa Woodfine
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-    
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path d="M22 7H2V11H22V7Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M21 19H3C2.4 19 2 18.6 2 18V6C2 5.4 2.4 5 3 5H21C21.6 5 22 5.4 22 6V18C22 18.6 21.6 19 21 19ZM14 14C14 13.4 13.6 13 13 13H5C4.4 13 4 13.4 4 14C4 14.6 4.4 15 5 15H13C13.6 15 14 14.6 14 14ZM16 15.5C16 16.3 16.7 17 17.5 17H18.5C19.3 17 20 16.3 20 15.5C20 14.7 19.3 14 18.5 14H17.5C16.7 14 16 14.7 16 15.5Z" fill="#035A4B"/>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Subscription</h3>
-                    <p class="card-text text-body">Assistance on how and when you might use the subscription product.</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img9.jpg" alt="Image Description">
-                          </div>
-                          <div class="avatar avatar-xs avatar-circle">
-                          <img class="avatar-img" src="../assets/img/160x160/img3.jpg" alt="Image Description">
-                        </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">2 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Fiona Burke, Luisa Woodfine
-                          <span class="text-muted">and</span>
-                          Neil Galavan
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-    
-          <div class="col-lg-6 mb-3 mb-lg-5">
-            <!-- Card -->
-            <a class="card card-bordered card-transition h-100" href="../demo-help-desk/listing.html">
-              <div class="card-body">
-                <!-- Media -->
-                <div class="d-block d-sm-flex">
-                  <div class="flex-shrink-0">
-                    <span class="svg-icon text-primary mb-2 mb-sm-0">
-                      <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                      <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M12 17C16.4183 17 20 13.4183 20 9C20 4.58172 16.4183 1 12 1C7.58172 1 4 4.58172 4 9C4 13.4183 7.58172 17 12 17Z" fill="#035A4B"/>
-                      <path opacity="0.3" fill-rule="evenodd" clip-rule="evenodd" d="M6.53819 9L10.568 19.3624L11.976 18.8149L13.3745 19.3674L17.4703 9H6.53819ZM9.46188 11H14.5298L11.9759 17.4645L9.46188 11Z" fill="#035A4B"/>
-                      <path opacity="0.3" d="M10 22H14V22C14 23.1046 13.1046 24 12 24V24C10.8954 24 10 23.1046 10 22V22Z" fill="#035A4B"/>
-                      <path fill-rule="evenodd" clip-rule="evenodd" d="M8 17C8 16.4477 8.44772 16 9 16H15C15.5523 16 16 16.4477 16 17C16 17.5523 15.5523 18 15 18C15.5523 18 16 18.4477 16 19C16 19.5523 15.5523 20 15 20C15.5523 20 16 20.4477 16 21C16 21.5523 15.5523 22 15 22H9C8.44772 22 8 21.5523 8 21C8 20.4477 8.44772 20 9 20C8.44772 20 8 19.5523 8 19C8 18.4477 8.44772 18 9 18C8.44772 18 8 17.5523 8 17Z" fill="#035A4B"/>
-                      </svg>
-    
-                    </span>
-                  </div>
-    
-                  <div class="flex-grow-1 ms-sm-4">
-                    <h3 class="card-title">Tips, tricks &amp; more</h3>
-                    <p class="card-text text-body">Tips and tools for beginners and experts alike.</p>
-    
-                    <div class="d-flex">
-                      <div class="flex-shrink-0">
-                        <!-- Avatar Group -->
-                        <div class="avatar-group avatar-group-xs">
-                          <div class="avatar avatar-xs avatar-circle">
-                            <img class="avatar-img" src="../assets/img/160x160/img7.jpg" alt="Image Description">
-                          </div>
-                        </div>
-                        <!-- End Avatar Group -->
-                      </div>
-    
-                      <div class="flex-grow-1 ms-2">
-                        <p class="card-text text-dark small mb-0">2 article in this collection</p>
-                        <p class="card-text text-dark small">
-                          <span class="text-muted">Written by</span>
-                          Luisa Woodfine
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <!-- End Media -->
-              </div>
-            </a>
-            <!-- End Card -->
-          </div>
-          <!-- End Col -->
-        </div>
-        <!-- End Row -->
-      </div>
-      <!-- End Card Grid -->
-    
 </main>
 
 
@@ -796,7 +499,7 @@
 
 <nav class="md-nav md-nav--primary md-nav--lifted" aria-label="ナビゲーション" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="./" title="Help Center" class="md-nav__button md-logo" aria-label="Help Center" data-md-component="logo">
+    <a href=".." title="Help Center" class="md-nav__button md-logo" aria-label="Help Center" data-md-component="logo">
       
   <img src="../assets/images/banner-logo.svg" alt="logo">
 
@@ -822,18 +525,9 @@
       
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../index.md" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -848,7 +542,6 @@
   
 
       </a>
-      
     </li>
   
 
@@ -3050,8 +2743,6 @@
   
   
   
-    
-  
   
 </nav>
                   </div>
@@ -3068,12 +2759,76 @@
 
 
 
-  
-
 
               
               <article class="md-content__inner md-typeset">
                 
+
+                  
+
+  
+  
+
+
+  <h1>Welcome to the Glean Help Center</h1>
+
+<style>
+  .md-typeset h1,
+  .md-content__button, .md-search {
+    display: none;
+  }
+</style>
+<div class="grid cards">
+<ul>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M23 17c0 3.31-2.69 6-6 6v-1.5c2.5 0 4.5-2 4.5-4.5H23M1 7c0-3.31 2.69-6 6-6v1.5c-2.5 0-4.5 2-4.5 4.5H1m7-2.68-4.59 4.6c-3.22 3.22-3.22 8.45 0 11.67s8.45 3.22 11.67 0l7.07-7.09c.49-.47.49-1.26 0-1.75a1.25 1.25 0 0 0-1.77 0l-4.42 4.42-.71-.71 6.54-6.54c.49-.49.49-1.28 0-1.77s-1.29-.49-1.79 0L14.19 13l-.69-.73 6.87-6.89c.49-.49.49-1.28 0-1.77s-1.28-.49-1.77 0l-6.89 6.89-.71-.7 5.5-5.48c.5-.49.5-1.28 0-1.77s-1.28-.49-1.77 0l-7.62 7.62a4.003 4.003 0 0 1-.33 5.28l-.71-.71a3 3 0 0 0 0-4.24l-.35-.35 4.07-4.07c.49-.49.49-1.28 0-1.77-.5-.48-1.29-.48-1.79.01Z"/></svg></span> <strong>はじめに</strong></p>
+<hr />
+<p>Gleanは初めてですか？<br><br>あなたの組織の初期設定をご案内しましょう。</p>
+<p><br><a href="getting-started/welcome/"><span class="twemoji"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13.22 19.03a.75.75 0 0 1 0-1.06L18.19 13H3.75a.75.75 0 0 1 0-1.5h14.44l-4.97-4.97a.749.749 0 0 1 .326-1.275.749.749 0 0 1 .734.215l6.25 6.25a.75.75 0 0 1 0 1.06l-6.25 6.25a.75.75 0 0 1-1.06 0Z"/></svg></span> ここからスタート</a></p>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M15 4a8 8 0 0 1 8 8 8 8 0 0 1-8 8 8 8 0 0 1-8-8 8 8 0 0 1 8-8m0 2a6 6 0 0 0-6 6 6 6 0 0 0 6 6 6 6 0 0 0 6-6 6 6 0 0 0-6-6m-1 2h1.5v3.78l2.33 2.33-1.06 1.06L14 12.4V8M2 18a1 1 0 0 1-1-1 1 1 0 0 1 1-1h3.83c.31.71.71 1.38 1.17 2H2m1-5a1 1 0 0 1-1-1 1 1 0 0 1 1-1h2.05L5 12l.05 1H3m1-5a1 1 0 0 1-1-1 1 1 0 0 1 1-1h3c-.46.62-.86 1.29-1.17 2H4Z"/></svg></span> <strong>最近の更新</strong></p>
+<hr />
+<ul>
+<li><a href="search/connectors/microsoft/configure-spo/">OneDrive &amp; SharePoint Configuration</a></li>
+<li><a href="getting-started/deploy-gcp/">GCP Deployment Guide</a></li>
+<li><a href="assistant/byo-key/">Use Your Own API Key</a></li>
+<li><a href="search/connectors/crawling-frequency/">Crawling Frequency</a></li>
+<li><a href="search/connectors/atlassian/restrict-atlassian/">Atlassian Connector Support for Content Restrictions</a></li>
+</ul>
+</li>
+<li>
+<p><span class="twemoji lg middle"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m16 6 2.29 2.29-4.88 4.88-4-4L2 16.59 3.41 18l6-6 4 4 6.3-6.29L22 12V6h-6Z"/></svg></span> <strong>ポピュラー</strong></p>
+<hr />
+<ul>
+<li><a href="getting-started/assistant/">Setup Glean Assistant</a></li>
+<li><a href="search/knowledge-graph/">Knowledge Graph</a></li>
+<li><a href="getting-started/deploy-options/">Glean Deployment Options</a></li>
+<li><a href="getting-started/sso/">Setup Single Sign-On (SSO)</a></li>
+<li><a href="search/connectors/about-connectors/">About Connectors</a></li>
+</ul>
+</li>
+</ul>
+</div>
+
+
+
+
+
+
+
+  
+  
+
+
+
+
+  
+
+
+
+                
+
               </article>
             </div>
           
@@ -3088,6 +2843,77 @@
 </button>
         
       </main>
+      
+        <footer class="md-footer">
+  
+    
+      
+        
+      
+      <nav class="md-footer__inner md-grid" aria-label="フッター" >
+        
+        
+          
+          <a href="administration/about/" class="md-footer__link md-footer__link--next" aria-label="次: About Workspace Settings">
+            <div class="md-footer__title">
+              <span class="md-footer__direction">
+                次
+              </span>
+              <div class="md-ellipsis">
+                About Workspace Settings
+              </div>
+            </div>
+            <div class="md-footer__button md-icon">
+              
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4Z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-copyright">
+  
+    <div class="md-copyright__highlight">
+      &copy; 2023, Glean Technologies, Inc.
+    </div>
+  
+  
+</div>
+      
+        <div class="md-social">
+  
+    
+    
+    
+    
+    <a href="https://www.youtube.com/channel/UCY0JDJWRBXrR0m1SqWPVB9A" target="_blank" rel="noopener" title="Glean on YouTube" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M549.655 124.083c-6.281-23.65-24.787-42.276-48.284-48.597C458.781 64 288 64 288 64S117.22 64 74.629 75.486c-23.497 6.322-42.003 24.947-48.284 48.597-11.412 42.867-11.412 132.305-11.412 132.305s0 89.438 11.412 132.305c6.281 23.65 24.787 41.5 48.284 47.821C117.22 448 288 448 288 448s170.78 0 213.371-11.486c23.497-6.321 42.003-24.171 48.284-47.821 11.412-42.867 11.412-132.305 11.412-132.305s0-89.438-11.412-132.305zm-317.51 213.508V175.185l142.739 81.205-142.739 81.201z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://twitter.com/glean" target="_blank" rel="noopener" title="Glean on X (formerly Twitter)" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z"/></svg>
+    </a>
+  
+    
+    
+    
+    
+    <a href="https://www.linkedin.com/company/gleanwork/about/" target="_blank" rel="noopener" title="Glean on LinkedIn" class="md-social__link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512"><!--! Font Awesome Free 6.4.2 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free (Icons: CC BY 4.0, Fonts: SIL OFL 1.1, Code: MIT License) Copyright 2023 Fonticons, Inc.--><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+    </a>
+  
+</div>
+      
+    </div>
+  </div>
+</footer>
       
     </div>
     <div class="md-dialog" data-md-component="dialog">

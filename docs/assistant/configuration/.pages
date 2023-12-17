@@ -1,0 +1,5 @@
+# Navigation
+nav:
+    - Set Up Glean Assistant: setup.en.md
+    - ...
+    - Use Your Own API Key: byo-key.en.md

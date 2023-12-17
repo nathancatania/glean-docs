@@ -1,15 +1,20 @@
 ---
-title: "Welcome to the Glean Help Center"
+title: "Home"
 description: "The Glean Help Center is your one-stop-shop for everything Glean!"
 template: landing.html
 hide:
-  - title
   - navigation
   - toc
+hero_title: "How can we help?"
+search_placeholder: "Search for answers"
+navigation:
+    - Release Notes
+    - Status
+    - Glossary
 ---
 <style>
   .md-typeset h1,
-  .md-content__button {
+  .md-content__button, .md-search {
     display: none;
   }
 </style>

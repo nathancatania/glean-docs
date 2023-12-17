@@ -1,20 +1,8 @@
 # Navigation
 nav:
   - About Glean Assistant: about.en.md
-  - Configuration:
-    - Set Up Glean Assistant: setup-assistant.en.md
-    - Exclusion Rules: exclusion-rules.en.md
-    - Receive User Feedback: user-feedback.en.md
-    - Custom Instructions: custom-instructions.en.md
-    - Use Your Own API Key: byo-key.en.md
-  
-  - Usage:
-    - Glean Chat: chat.en.md
-    - AI Answers: ai-answers.en.md
-    - AI Summaries: ai-summaries.en.md
-    - Slackbot: slackbot.en.md
   - Supported LLMs: supported-llms.en.md
   - ...
   - FAQ: faq.en.md
-  - BYO Key:
-    - byo-key.en.md
+  - Configuration: configuration
+  - Usage: usage

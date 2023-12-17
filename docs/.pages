@@ -1,11 +1,11 @@
 # Navigation for root
 nav:
-    - Home: index.en.md
+    - ... | index*.md
     - Getting Started: getting-started
     - Architecture: architecture
     - Search: search
     - Assistant: assistant
     - Platform: platform
     - Administration: administration
-    - API: api
+    - API: https://developers.glean.com/
     - Support Portal: https://support.glean.com/hc/en-us/signin?return_to=https%3A%2F%2Fsupport.glean.com%2Fhc%2Fen-us
