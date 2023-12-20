@@ -1,4 +1,5 @@
 ---
+icon: material/timer-stop-outline
 title: Restricting Content
 description: "Content restrictions in Glean are a powerful tool for managing the visibility and accessibility of your organization's data. Two key methods for applying these restrictions are greenlisting and redlisting."
 lang: en

@@ -1,4 +1,5 @@
 ---
+icon: material/information-outline
 title: About Glean Search
 description: "Glean Search is a powerful tool designed to help you find the information you need quickly and efficiently."
 lang: en

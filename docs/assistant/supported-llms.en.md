@@ -1,4 +1,5 @@
 ---
+icon: material/star-shooting-outline
 title: "Supported LLMs"
 description: "Glean Assistant supports multiple LLM models for content generation including GPT4, and PaLM 2."
 lang: en

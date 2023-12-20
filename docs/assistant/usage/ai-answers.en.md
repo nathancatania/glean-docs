@@ -1,4 +1,5 @@
 ---
+icon: material/head-question-outline
 title: "AI Answers"
 description: "AI Answers are used in the context of search results, providing direct and automatic answers to user queries based on the content of your documents."
 lang: en

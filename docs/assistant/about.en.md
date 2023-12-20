@@ -1,4 +1,5 @@
 ---
+icon: material/information-outline
 title: "About Glean Assistant"
 description: "Glean Assistant is the enterprise-ready digital workplace assistant powered by next-generation AI."
 lang: en

@@ -1,4 +1,5 @@
 ---
+icon: material/information-outline
 title: About Connectors
 description: "Glean connectors are integral components of the Glean platform, designed to fetch data and permissions from various enterprise data sources."
 lang: en

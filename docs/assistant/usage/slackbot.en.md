@@ -1,4 +1,5 @@
 ---
+icon: material/slack
 title: "AI Summaries"
 description: "AI Summarization provides concise summaries of documents and message chains; allowing users to naturally interact with content and follow-up with questions."
 lang: en

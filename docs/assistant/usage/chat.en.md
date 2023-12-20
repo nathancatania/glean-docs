@@ -1,4 +1,5 @@
 ---
+icon: material/creation-outline
 title: "Glean Chat"
 description: "Glean Chat is the dedicated entry point for Glean Assistant and Generative AI within Glean."
 lang: en

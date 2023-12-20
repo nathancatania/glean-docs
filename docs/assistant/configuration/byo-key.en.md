@@ -1,4 +1,5 @@
 ---
+icon: material/key
 title: "Using your own API Key"
 description: "Glean supports BYO API Key for access to supported LLMs like GPT-4 for Glean Assistant."
 lang: en
@@ -72,7 +73,7 @@ In the [Setup](https://app.glean.com/admin/setup/gleanassistant?tab=setup){:targ
 
 Next, from the **Custom API key type** dropdown, select either **OpenAI** or **Azure OpenAI** (depending on the key you have), and follow the instructions in the applicable section below.
 
-![glean-1700908363467-2x](assets/byo-key.en.20231208144201593.webp)
+![glean-1700908363467-2x](assets/byo-key.en.20231220101714980.webp)
 
 === "OpenAI"
 

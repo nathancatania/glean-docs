@@ -19,7 +19,7 @@ sources:
 ## Create a new App Registration
 1. Sign into the [Azure portal](https://portal.azure.com/){:target="_blank"}. Select **Microsoft Entra ID**, then **App registrations > New registration**.
 
-    ![](assets/configure-spo.en.20231208144203184.webp)
+    ![](assets/configure-spo.en.20231220111249759.webp)
 
 3. Create a new App Registration with the following details and then click **Register**:
 
@@ -29,7 +29,7 @@ sources:
 | Supported account types | Accounts in this organizational directory only ([Company] only - Single tenant) |
 | Redirect URI            | (Leave this field blank)                                                        |
 
-![](assets/configure-spo.en.20231208144203203.webp)
+![](assets/configure-spo.en.20231220111249795.webp)
 
 ## Configure Graph API Permissions
 1. On the left side navigation on the overview page, click on **=API Permissions**.
@@ -55,7 +55,7 @@ sources:
 !!! danger "Error prevention"
     Make sure that you have applied all of the permissions listed above. If a permission is missing, crawling will fail!
 
-![](assets/configure-spo.en.20231208144203218.webp)
+![](assets/configure-spo.en.20231220111249888.webp)
 
 ## Approve Permissions
 As the above permissions use Application permissions, they must be approved by a Global, Application, or Cloud Application Administrator.
@@ -66,7 +66,7 @@ As the above permissions use Application permissions, they must be approved by a
 
 3. Click the **Grant admin consent for [company]** button, followed by **Yes** to grant admin consent for these permissions.
 
-![](assets/configure-spo.en.20231208144203241.webp)
+![](assets/configure-spo.en.20231220111249971.webp)
 
 ## Generate a Secret
 
@@ -74,11 +74,11 @@ As the above permissions use Application permissions, they must be approved by a
 
 2. Enter a description, eg: `Glean Sharepoint Secret`, select **24 months** for expiry time, and click **Add**.
 
-    ![](assets/configure-spo.en.20231208144203261.webp)
+    ![](assets/configure-spo.en.20231220111250003.webp)
 
 3. Under **Client secrets**, copy the **Value** (not the **Secret ID**) generated and enter it into the Glean Admin UI as the **Client secret**. The value will only be shown once.
 
-    ![](assets/configure-spo.en.20231208144203282.webp)
+    ![](assets/configure-spo.en.20231220111250043.webp)
 
 
 
@@ -88,7 +88,7 @@ As the above permissions use Application permissions, they must be approved by a
 
 2. Copy the values for **Application (client) ID** and **Directory (tenant) ID**. Enter these into the Glean Admin UI where indicated.
 
-![](assets/configure-spo.en.20231208144203308.webp)
+![](assets/configure-spo.en.20231220111250088.webp)
 
 ## Populate Credentials in Glean
 
@@ -103,7 +103,7 @@ As the above permissions use Application permissions, they must be approved by a
 
 4. Check the **Enable OneDrive user drives crawl** option to crawl OneDrive in addition to SharePoint.
 
-![](assets/configure-spo.en.20231208144203322.webp)
+![](assets/configure-spo.en.20231220111250132.webp)
 
 ## Add Additional Apps
 SharePoint and OneDrive are often the largest sources of content for most organizations, however, the Microsoft Graph API tends to have a lower rate limit which is not ideal for crawling large amounts of content quickly.
@@ -115,7 +115,7 @@ To increase crawl speeds, you can repeat the steps above and create multiple "Gl
 
 1. In the Glean UI, under **#3 Setup additional apps**, click the **Add additional app** button. This will prompt you to add in another Application (client) ID and Secret.
 
-    ![](assets/configure-spo.en.20231208144203342.webp)
+    ![](assets/configure-spo.en.20231220111250161.webp)
 
 3. For each additional app you wish to add, follow the steps above again:
     * Create a new App Registration (eg: `Glean SharePoint Additional 1`, `Glean SharePoint Additional 2`, etc).
@@ -163,7 +163,7 @@ Some SharePoint content (like classic sites, and permissions for site pages) is 
 
     6. Repeat steps a-e for each additional app.
 
-![](assets/configure-spo.en.20231208144203363.webp)
+![](assets/configure-spo.en.20231220111250225.webp)
 
 !!! question "Why is FullControl necessary on the REST API permissions?"
     The SharePoint REST API unfortunately does not provide information on the permissions for each site when querying the API with ReadOnly. This data is only obtainable via the SharePoint REST API when FullControl permissions are used. Furthermore, this information is not obtainable at all using the Graph API.

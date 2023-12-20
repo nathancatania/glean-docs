@@ -1,14 +1,9 @@
 ---
+icon: material/arrow-decision-outline
 title: "Data Flow"
 description: "How data is ingested, processed, and queried within the Glean platform."
-lang: en
-tags:
-    - "architecture"
-authors:
-    - "Arvind Jain"
-    - "Nathan Catania"
 sources:
-    - REDACTED
+    - Security Pack
 ---
 
 The Glean architecture consists of a data ingestion path, a query path, and data processing pipelines.
@@ -109,7 +104,7 @@ Examining the header of the request reveals the following:
 }
 ```
 
-A description can be found in our [Developer Documentation](https://developers.glean.com/client/operation/search/){:target="_blank"}.
+A description of each field can be found in our [Developer Documentation](https://developers.glean.com/client/operation/search/){:target="_blank"}.
 
 Examining the response of the request (some fields have been omitted for brevity):
 ```json

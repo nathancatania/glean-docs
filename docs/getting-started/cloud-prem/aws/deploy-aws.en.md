@@ -12,7 +12,7 @@ tags:
 authors:
   - Nathan Catania
 ---
-![](assets/deploy-aws.en.20231208144202689.webp)
+![](assets/deploy-aws.en.20231220101715111.webp)
 ## About Cloud-prem AWS
 
 Glean provides our customers the ability to deploy Glean software inside their own AWS environment. This deployment requires your AWS admin to create a new AWS project, associate a **billing account** to it, enable applicable APIs, and request the required quotas from AWS.

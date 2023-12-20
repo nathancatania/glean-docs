@@ -1,4 +1,5 @@
 ---
+icon: material/speedometer
 title: Crawling Strategy
 description: "The Glean crawling system optimizes for minimizing the latency in incorporating updates in the source application while keeping the API call volume within rate limits and not overloading the source application."
 lang: en

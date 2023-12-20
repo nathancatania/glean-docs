@@ -1,4 +1,5 @@
 ---
+icon: material/hand-front-right
 title: "Exclusion Rules"
 description: "You can exclude certain content from being used for Generative AI responses across all Glean Assistant interfaces."
 lang: en

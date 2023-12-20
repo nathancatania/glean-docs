@@ -1,0 +1,5 @@
+# Navigation
+nav:
+    - ...
+    - Google Cloud (GCP): gcp
+    - Amazon Web Services (AWS): aws

@@ -1,4 +1,5 @@
 ---
+icon: material/apple
 title: "macOS"
 description:  "Glean's macOS app provides your users with a spotlight-like search experience where you can search across all the tools your company has in use."
 lang: en

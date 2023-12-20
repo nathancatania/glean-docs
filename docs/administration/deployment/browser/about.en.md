@@ -1,4 +1,5 @@
 ---
+icon: material/web
 title: "About the Glean Browser Extensions"
 description:  The best way to drive Glean adoption at your company is by deploying the browser extension to their managed devices."
 lang: en

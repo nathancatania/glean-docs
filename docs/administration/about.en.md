@@ -1,4 +1,5 @@
 ---
+icon: material/information-outline
 title: "About Workspace Settings"
 description: "Workspace Settings, also known as the Admin UI, is where all enterprise-wide configuration for the Glean platform occurs."
 lang: en

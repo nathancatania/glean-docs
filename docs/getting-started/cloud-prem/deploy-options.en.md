@@ -2,22 +2,13 @@
 icon: material/hammer-wrench
 title: "Glean Deployment Options"
 description: "Glean is a SaaS solution and all tenants are hosted by Glean by default, however Glean also provides options for our customer's to self-host Glean within their own GCP or AWS environments."
-lang: en
-tags:
-    - "getting started"
-    - "administration"
-    - "saas"
-    - "cloud-prem"
-    - "GCP"
-    - "AWS"
-    - "deployment"
 authors:
     - "Nathan Catania"
 sources:
     - https://docs.google.com/document/d/1WvmtYulF7gMMjyCBTsaRdxVgkY694PcBIWFnRR2kFLs/edit
 ---
 
-![](assets/deploy-options.en.20231208144202742.webp)
+![](assets/deploy-options.en.20231220101714750.webp)
 
 ## About Glean Deployments
 Glean is a SaaS solution where all customer tenants are hosted by Glean by default as part of our SaaS offering.
@@ -51,7 +42,7 @@ In terms of access to your tenant:
 In the Cloud-prem model, your Glean tenant is deployed and managed by Glean within your own cloud environment (i.e. GCP, AWS). 
 
 This has a few advantages:
-management,
+
 1. **Data Security and Control:** Know exactly where your data is and the fact that the data never leaves your environment. Control GCP/AWS IAM policies yourself and retain direct access to logs.
 
 2. **Retire Spend Against Your Commit:** Retire the costs of hosting Glean against your spend commitment with GCP or AWS.

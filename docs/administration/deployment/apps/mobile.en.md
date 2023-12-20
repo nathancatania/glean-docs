@@ -1,4 +1,5 @@
 ---
+icon: material/cellphone-text
 title: "iOS & Android"
 description:  "Deploy the Glean mobile apps to your managed devices to help your employees find exactly what they need when they need it."
 lang: en

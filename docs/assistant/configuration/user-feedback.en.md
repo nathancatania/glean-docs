@@ -1,4 +1,5 @@
 ---
+icon: material/comment-alert-outline
 title: "Receive User Feedback"
 description: "Users can upvote or downvote Glean Assistant responses to provide feedback, and you can opt to have this feedback sent to a company email for review."
 lang: en

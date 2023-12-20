@@ -1,14 +1,7 @@
 ---
 icon: material/google-cloud
-title: Deploying Glean in GCP
+title: "Deploying Glean in GCP"
 description: Your Glean instance can be deployed within your own GCP environment to allow you to retire compute costs against your committed spend.
-lang: en
-tags:
-    - "getting started"
-    - "administration"
-    - "cloud-prem"
-    - "GCP"
-    - "deployment"
 authors:
   - Nathan Catania
 sources:
@@ -16,11 +9,11 @@ sources:
   - https://docs.google.com/spreadsheets/d/1THwN43trfMqwUggrslOKDxLrB3uDIJ536MnIQzwZCV8/edit#gid=921403900
 ---
 
-![](assets/deploy-gcp.en.20231208144202720.webp)
+![](assets/deploy-gcp.en.20231220101714801.webp)
 
 ## About Cloud-prem GCP
 
-Glean provides our customers the ability to deploy Glean software inside their own GCP Project. This deployment requires your GCP admin to create a new GCP project, associate a **billing account** to it, enable applicable APIs, and request the required quotas from GCP.
+Glean provides our customers the ability to deploy Glean software inside their own Google Cloud Platform (GCP) project. This deployment requires your GCP admin to create a new GCP project, associate a **billing account** to it, enable applicable APIs, and request the required quotas from GCP.
 
 After completing the above, Glean's systems will automatically build and deploy the required compute, workflows, and software into your GCP project.
 
@@ -29,7 +22,7 @@ At this stage, Glean will advise you that your tenant is ready; allowing your ad
 This document will cover the steps required by your GCP admins to prepare a GCP project that is ready for your Glean build.
 
 ## 1. Create the GCP Project
-1. Go to the [Manage resources](https://console.cloud.google.com/cloud-resource-manager) page in the GCP console and click Create Project.
+1. Go to the [Manage resources](https://console.cloud.google.com/cloud-resource-manager){:target="_blank"} page in the GCP console and click Create Project.
 
 2. In the New Project window that appears, add a project name, organization, and location.
     * For the project name, the preferred format is `glean-{customer name}` or `glean-{customer name}-{prod/sandbox}`, e.g. `glean-company` or `glean-company-prod`
@@ -53,7 +46,7 @@ This document will cover the steps required by your GCP admins to prepare a GCP 
 
 
 ## 2. Configure Billing
-1. Go to [Billing](https://console.cloud.google.com/billing/linkedaccount) in the GCP console.
+1. Go to [Billing](https://console.cloud.google.com/billing/linkedaccount){:target="_blank"} in the GCP console.
 
 2. Click **Link a billing account** to set up billing for this project.
    
@@ -87,19 +80,22 @@ For each of the quotas in the table below, request a quota change by completing 
 !!! info
     Please note that some quota requests will require filing a ticket with GCP support. Response time is typically within 2 days.
 
+!!! warning
+    You must ensure that the region/location specified in your quota request(s) match the GCP Region and Zone that you wish to deploy in. For more information, see [Supported GCP Regions](gcp-regions.en.md).
+
 === "Large (>2500 employees)"
-    {{ read_excel("../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Large Deployment Quota") }}
+    {{ read_excel("../../../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Large Deployment Quota") }}
 
 === "Medium (<2500 employees)"
-    {{ read_excel("../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Medium Deployment Quota") }}
+    {{ read_excel("../../../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Medium Deployment Quota") }}
 
 === "Small (test/sandbox)"
-    {{ read_excel("../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Small Deployment Quota") }}
+    {{ read_excel("../../../assets/tables/gcp-quota-details.xlsx", engine="openpyxl", na_filter=False, skiprows=[0], sheet_name="Small Deployment Quota") }}
 
 ## 5. Create a Service Account
 The service account is used to allow Glean's systems to access the project and perform the build. You will create the service account and provide Glean with the private JSON key required to use it.
 
-1. Go to the [Service Accounts](https://console.cloud.google.com/iam-admin/serviceaccounts) page in the GCP console and click Select a Project.
+1. Go to the [Service Accounts](https://console.cloud.google.com/iam-admin/serviceaccounts){:target="_blank"} page in the GCP console and click Select a Project.
 
 2. Click **Create Service Account**. Enter the service account name (`glean-admin`), ID, and description (optional), then click **Create**.
 
@@ -112,7 +108,7 @@ The service account is used to allow Glean's systems to access the project and p
 
 ## 6. Upload the Service Account Key to the Glean Admin UI
 1. If you haven't already, follow the instructions from the [Access the Admin UI](adminui.en.md){:target="_blank} section of the Getting Started guide.
-    * Browse to [https://app.glean.com/admin](https://app.glean.com/admin)
+    * Browse to [https://app.glean.com/admin](https://app.glean.com/admin){:target="_blank"}
     * Enter your email to receive a link via email to sign in.
 
 2. On the page titled Create a Google Cloud Platform project, click the box under Step 2 to upload the private JSON key to Glean.

@@ -1,12 +1,7 @@
 ---
+icon: material/information-outline
 title: "About Glean"
 description: "Glean provides a universal enterprise search tool that allows users to search their data scattered across multiple applications (e.g. Gdrive, Slack, Salesforce, SharePoint, Zendesk, etc.) from a single interface."
-lang: en
-tags:
-    - "architecture"
-authors:
-    - "Arvind Jain"
-    - "Nathan Catania"
 sources:
     - https://docs.google.com/document/d/1fNxclCU23i8d8SqSAHbVs6ytPdwBMYK8um6aeMIJgwE/edit
 ---

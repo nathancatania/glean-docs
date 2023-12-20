@@ -1,4 +1,5 @@
 ---
+icon: material/graph
 title: Knowledge Graph
 description: "The Glean Knowledge Graph is a powerful tool that forms the backbone of Glean's enterprise search platform. It is designed to provide users with the most personalized and relevant results for their queries."
 lang: en

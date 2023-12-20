@@ -1,14 +1,9 @@
 ---
+icon: material/crane
 title: "Architecture Overview"
 description: ""
-lang: en
-tags:
-    - "architecture"
-authors:
-    - "Arvind Jain"
-    - "Nathan Catania"
 sources:
-    - REDACTED
+    - Security Pack
 ---
 
 

@@ -1,4 +1,5 @@
 ---
+icon: material/open-in-app
 title: "Deploying the Glean Browser Extensions"
 description: "The Glean Browser extension can either be manually installed by your users or pushed to managed devices by your admins."
 lang: en

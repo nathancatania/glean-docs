@@ -1,4 +1,5 @@
 ---
+icon: material/chat-processing-outline
 title: "Custom Instructions"
 description: "You can optionally provide Glean Assistant with up to 5 custom instructions to better align its behavior with your enterprise requirements."
 lang: en
